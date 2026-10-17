@@ -1,148 +1,92 @@
-# Training data and submission examples
+# Discovery Track problems
 
-This folder contains **the same 424 training presentations in AC and Stable AC
-versions**. They are **outside the official pool of 10,115 presentations** and
-earn no points. Read them in [`ac.jsonl`](ac.jsonl) and
-[`stable_ac.jsonl`](stable_ac.jsonl), using the same format as the official
-[AC](../problems/ac.jsonl) and [Stable AC](../problems/stable_ac.jsonl) problem files.
-Each line contains only `challenge_id` and `description` of the initial
-presentation. See [Reading a problem](../problems/README.md#reading-a-problem)
-for the notation and integer encoding.
+| File | Contents | Target |
+|---|---|---|
+| [ac.jsonl](ac.jsonl) | 10,115 AC problems | The ordered relators `(x, y)`, with the two generators fixed |
+| [stable_ac.jsonl](stable_ac.jsonl) | 10,115 Stable AC problems | The empty presentation, using at most 8 generators |
 
-| File | Contents |
-|---|---|
-| [`ac.jsonl`](ac.jsonl) | 424 AC training IDs and presentation descriptions |
-| [`stable_ac.jsonl`](stable_ac.jsonl) | The matching 424 Stable AC training IDs and descriptions |
-| [`training_424.json`](training_424.json) | Frozen AC training data: integer-encoded words, known move sequences, and statistics |
-| [`stable_training_424.json`](stable_training_424.json) | The same training presentations with known Stable AC sequences and statistics |
-| [`sample_submission.txt`](sample_submission.txt) | One successful submission covering both problems |
-| [`training_manifest.json`](training_manifest.json) | All 848 unscored training challenges, covering both versions of the 424 presentations |
-| [`sample_verdict.json`](sample_verdict.json) | Complete expected success receipt |
-| [`invalid_submission.txt`](invalid_submission.txt) | A deliberately unsuccessful submission |
+Both files use the same 10,115 initial presentations. Matching ID suffixes
+identify the same initial presentation: `ac-00001` and `sac-00001`, for
+example. Each problem is scored separately. The 424 training presentations
+are outside these files; they and the submission examples are in
+[examples/](../examples/README.md).
 
-Start with `sample_submission.txt`: a complete, successful submission for
-the AC and Stable AC problems in [Discovery Track](../rules/discovery.md),
-using training instance `ms-train-0160`. The AC
-path uses 7 moves from [`training_424.json`](training_424.json);
-the Stable AC path appends `[16, 15]` from
-[`stable_training_424.json`](stable_training_424.json), reaching
-the empty presentation. Both use the [reference verifier](../tools/verifier/README.md)
-and official submission format.
+## File format
 
-This is **local training only and earns no points**. The accompanying
-`training_manifest.json` lets you verify any of the 848 training challenges,
-all marked `scored: false` with `base_score: 0`, using the official limits
-and move specifications. AC training IDs are `ms-train-NNNN`; the matching
-Stable AC IDs are `sac-train-NNNN`. The Stable sample ID is `sac-train-0160`;
-both frozen source files use `ms-train-0160` in their `training_id` field.
-The instance and manifest hashes are independently checkable.
+Each file uses **JSON Lines**: one JSON object per line, with no enclosing
+array. Every object has exactly two fields:
 
-The JSONL files list problems. Submit a UTF-8 **TXT file**, with one solution
-per line: `challenge_id: [comma-separated moves]`. Blank lines, full-line
-`#` comments, and trailing `#` comments are ignored. Use comments for optional
-notes; they have no separate length limit. The whole file, including comments,
-must be at most 10 MB (10,000,000 bytes), with at most 500 solution lines.
-Repeated IDs and skipped lines count toward that limit. The complete file
-must pass format and size checks before path verification.
+- `challenge_id`: the ID to use in your submission.
+- `description`: the initial group presentation.
 
-A challenge ID may repeat. In file order, select the first path that verifies;
-earlier failed attempts do not block it. After a success, later lines for that
-ID are skipped without replay, even if shorter. Later uploads can improve
-your record. Skipped rows do not cause CLI failure; an actual failed attempt
-still gives exit status 1, even if a later attempt succeeds.
+The shared targets and move rules are specified in the
+[Discovery rules](../rules/discovery.md#problems).
 
-## Run a successful submission
+See [Reading a problem](#reading-a-problem) for the
+presentation notation, letter encoding, and a worked example.
+The [424 training problems](../examples/README.md) use the same format.
 
-From the repository root **or the unpacked public package root**
-(the directory containing `competition/`), run:
+Read a problem file with Python's standard library, from the repository
+or unpacked public package root:
 
-```sh
-PYTHONPATH=competition/tools python3 -m verifier \
-  --manifest competition/examples/training_manifest.json \
-  --submission competition/examples/sample_submission.txt --pretty
+```python
+import json
+
+with open("competition/problems/ac.jsonl", encoding="utf-8") as source:
+    problems = [json.loads(line) for line in source]
+print(problems[0])
 ```
 
-To check your own training submission, replace
-`competition/examples/sample_submission.txt` with your TXT file and keep
-the same training manifest.
+## Reading a problem
 
-The full input, [`sample_submission.txt`](sample_submission.txt), is:
+`Presentation: <x, y | u = 1; v = 1>.` specifies generators `x, y`
+and two ordered relators: `r0 = u`, then `r1 = v`. The semicolon separates
+the relations; `1` on the right is the group identity. Only the words on
+the left are encoded as relators.
 
-```text
-# Successful AC and Stable AC training paths.
-# Comments can describe your method or acknowledge other work.
+Read words as products in the written order. Spaces mean multiplication,
+`x^-1` and `y^-1` mean inverses, and `x x x` means three copies of `x`.
+Moves act in the free group: factor order matters, and free reduction
+only cancels adjacent inverse letters, as in `x y y^-1` becoming `x`.
+The defining relations are not extra simplification operations.
 
-ms-train-0160: [6, 4, 2, 9, 1, 4, 1] # AC: reach (x, y).
-sac-train-0160: [6, 4, 2, 9, 1, 4, 1, 16, 15] # Stable AC: reach the empty presentation.
-```
+The verifier and reference training solutions encode letters as integers:
 
-Expected output, also saved as [`sample_verdict.json`](sample_verdict.json):
+| Letter | Integer |
+|---|---:|
+| `x` | `1` |
+| `x^-1` | `-1` |
+| `y` | `2` |
+| `y^-1` | `-2` |
 
-```json
-{
-  "accepted": true,
-  "results": [
-    {
-      "certificate_hash": "sha256:80dedf02b91d429b017fb0b3f48e950a9fc5e18363dbdf21c6e27297100c471f",
-      "challenge_id": "ms-train-0160",
-      "length": 7,
-      "ok": true,
-      "work": 46
-    },
-    {
-      "certificate_hash": "sha256:e94492471688db5cb52971611a3617e75c165d89e3ed51cea9a3f5d96ccbb77e",
-      "challenge_id": "sac-train-0160",
-      "length": 9,
-      "ok": true,
-      "work": 47
-    }
-  ]
-}
-```
+The identity word is `[]`; `[1]` is the word `x`. These letter codes are
+distinct from the operation IDs in a submitted move list.
 
-The command exits with **status 0**. `accepted: true` means the document
-passed submission-level checks; each solution must also have `ok: true` to
-count as a verified path. Each solution line gives only its challenge ID and
-move list. The verifier obtains the move-spec version from the manifest and
-computes all result fields itself. Do not upload the verdict as a submission.
+For example, `<x, y | x y = 1; y = 1>` has
+`initial_relators = [[1, 2], [2]]`. This is an illustration, not a scored
+problem. AC move `3` multiplies the first relator by the inverse of the
+second: `(x y, y)` becomes the target `(x, y)`, so its solution is `[3]`.
+For Stable AC, `[3, 16, 15]` gives
+`(x y, y) → (x, y) → (x) → ()`, reaching the empty presentation.
 
-You can also check the training manifest's hashes:
+Use the problem's exact `challenge_id` and your operation IDs in the
+[TXT submission format](../rules/discovery.md#submit). Problem files are JSONL;
+submissions are TXT. The [examples guide](../examples/README.md) has a
+complete successful submission and its verifier receipt.
 
-```sh
-PYTHONPATH=competition/tools python3 -m verifier \
-  --manifest competition/examples/training_manifest.json --check-hashes
-```
+## Local verification
 
-Do **not** upload this training solution to the scored competition. Training
-IDs are absent from `competition/tools/verifier/data/manifest.json`; checking this
-same sample against that official manifest returns `E_UNKNOWN_CHALLENGE`
-and exit status 1.
-
-## Check a scored submission
-
-Use challenge IDs from [`problems/ac.jsonl`](../problems/ac.jsonl) or
-[`problems/stable_ac.jsonl`](../problems/stable_ac.jsonl) and your own move
-sequences. Verify `mine.txt` against the official verifier data:
+The verifier reads the same presentations in integer form from
+[`tools/verifier/data/manifest.json`](../tools/verifier/data/manifest.json),
+along with their targets and limits. The two problem files are generated
+from that manifest, and release checks require them to agree exactly.
+From the repository or unpacked public package root:
 
 ```sh
 PYTHONPATH=competition/tools python3 -m verifier \
   --manifest competition/tools/verifier/data/manifest.json \
-  --submission mine.txt --pretty
+  --submission submission.txt --pretty
 ```
 
-## Run the deliberately invalid submission
-
-[`invalid_submission.txt`](invalid_submission.txt) preserves the old sample's path:
-on scored challenge `ac-00001`, move 6 conjugates the first relator by `x`
-and move 7 undoes it. The path returns to its initial state, not the target.
-
-```sh
-PYTHONPATH=competition/tools python3 -m verifier \
-  --manifest competition/tools/verifier/data/manifest.json \
-  --submission competition/examples/invalid_submission.txt --pretty
-```
-
-Expected: **exit status 1**, top-level `accepted: true`, and a per-solution
-verdict of `ok: false`, `code: "E_NOT_TARGET"`, `final_shape: [9, 18]`.
-This checks that a well-formed document with legal moves can still contain
-a mathematically unsuccessful path.
+Use the IDs in these problem files and replace `submission.txt` with your own
+submission. Local verification does not register a submission on SAIR.

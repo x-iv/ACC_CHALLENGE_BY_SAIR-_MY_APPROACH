@@ -1,0 +1,15 @@
+Bidirectional A* solver
+Loaded:             2672 problems
+Step seconds:       30
+Max per problem:    120s
+Total run budget:   14400s
+Forward weight:     2
+Backward weight:    2
+Max fwd states:     5000000
+Max bwd states:     5000000
+Start:              2026-09-24 18:14:29
+
+[1/2672] ac-06279 (len=13) FAILED
+[2/2672] ac-00399 (len=13) FAILED
+[3/2672] ac-06945 (len=13) FAILED
+^C

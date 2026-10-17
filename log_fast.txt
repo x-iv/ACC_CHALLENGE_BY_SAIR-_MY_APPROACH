@@ -1,0 +1,2375 @@
+Fast Weighted A* solver
+Weight:             5
+Loaded:             790 problems (len <= 20)
+Per-problem budget: 20s
+Total run budget:   14400s
+Max states:         15000000
+Start:              2026-09-24 18:58:02
+
+      [hb] open=1701733 seen=1705367 exp=286768 elapsed=5s
+      [hb] open=3107426 seen=3123711 exp=514048 elapsed=10s
+      [hb] open=4195576 seen=4216810 exp=681749 elapsed=15s
+      [hb] open=5893211 seen=5873865 exp=955260 elapsed=20s
+[1/790] ac-06945 (len=13) FAILED (1010671 exp, 29.5944s)
+      [hb] open=1473816 seen=1473358 exp=247014 elapsed=5s
+      [hb] open=2879631 seen=2864909 exp=473207 elapsed=10s
+      [hb] open=4153831 seen=4194310 exp=672802 elapsed=16s
+[2/790] ac-00399 (len=13) FAILED (939044 exp, 29.067s)
+      [hb] open=1501960 seen=1509483 exp=243301 elapsed=5s
+      [hb] open=3131661 seen=3222944 exp=506050 elapsed=10s
+      [hb] open=4272745 seen=4408185 exp=679705 elapsed=15s
+      [hb] open=5830036 seen=6024993 exp=927960 elapsed=20s
+[3/790] ac-06279 (len=13) FAILED (991302 exp, 29.2313s)
+      [hb] open=1355950 seen=1367524 exp=210857 elapsed=5s
+      [hb] open=2945789 seen=3094416 exp=477872 elapsed=10s
+      [hb] open=4215265 seen=4416445 exp=681384 elapsed=15s
+      [hb] open=5566935 seen=5845952 exp=903778 elapsed=20s
+[4/790] ac-08126 (len=14) FAILED (951315 exp, 28.2221s)
+      [hb] open=1586339 seen=1612581 exp=249945 elapsed=5s
+      [hb] open=2954669 seen=3086511 exp=474519 elapsed=10s
+      [hb] open=4250900 seen=4456845 exp=684409 elapsed=15s
+      [hb] open=5854105 seen=6136739 exp=956624 elapsed=20s
+[5/790] ac-00413 (len=14) FAILED (999627 exp, 29.5475s)
+      [hb] open=1717766 seen=1770712 exp=266569 elapsed=5s
+      [hb] open=2960156 seen=3113427 exp=471108 elapsed=10s
+      [hb] open=4173276 seen=4387910 exp=659979 elapsed=15s
+      [hb] open=5923416 seen=6215559 exp=944611 elapsed=20s
+[6/790] ac-05932 (len=14) FAILED (1003424 exp, 30.2161s)
+      [hb] open=1745394 seen=1662495 exp=276373 elapsed=5s
+      [hb] open=3228549 seen=2942005 exp=530595 elapsed=10s
+      [hb] open=4610875 seen=4194305 exp=754547 elapsed=15s
+      [hb] open=6345898 seen=5767994 exp=1064559 elapsed=20s
+[7/790] ac-02842 (len=14) FAILED (1091043 exp, 30.4457s)
+      [hb] open=1594421 seen=1628317 exp=244678 elapsed=5s
+      [hb] open=2823774 seen=2966956 exp=447718 elapsed=10s
+      [hb] open=3972011 seen=4194306 exp=634626 elapsed=16s
+[8/790] ac-04376 (len=14) FAILED (919629 exp, 30.1403s)
+      [hb] open=1706376 seen=1549651 exp=275615 elapsed=5s
+      [hb] open=3433687 seen=2883707 exp=566758 elapsed=10s
+      [hb] open=4859604 seen=4194310 exp=816739 elapsed=16s
+[9/790] ac-06556 (len=14) FAILED (1115151 exp, 29.5536s)
+      [hb] open=1504530 seen=1517740 exp=238180 elapsed=5s
+      [hb] open=3093209 seen=3207559 exp=497296 elapsed=10s
+      [hb] open=4231388 seen=4421352 exp=679670 elapsed=15s
+      [hb] open=5698346 seen=5942383 exp=927917 elapsed=20s
+[10/790] ac-02089 (len=14) FAILED (985091 exp, 29.121s)
+      [hb] open=1342667 seen=1364542 exp=209114 elapsed=5s
+      [hb] open=2893448 seen=3023370 exp=463389 elapsed=10s
+      [hb] open=4199983 seen=4384295 exp=675621 elapsed=15s
+      [hb] open=5600388 seen=5863293 exp=910776 elapsed=20s
+[11/790] ac-03467 (len=14) FAILED (952533 exp, 29.3356s)
+      [hb] open=1486076 seen=1429874 exp=258531 elapsed=5s
+      [hb] open=2816670 seen=2803762 exp=475818 elapsed=10s
+      [hb] open=4161140 seen=4194311 exp=701772 elapsed=15s
+      [hb] open=5733440 seen=5712784 exp=976705 elapsed=20s
+[12/790] ac-09919 (len=15) FAILED (1018710 exp, 29.4181s)
+      [hb] open=1621800 seen=1589253 exp=273116 elapsed=5s
+      [hb] open=2699105 seen=2730399 exp=455736 elapsed=10s
+      [hb] open=4133884 seen=4194306 exp=705111 elapsed=16s
+[13/790] ac-04637 (len=15) FAILED (984134 exp, 30.0546s)
+      [hb] open=1736064 seen=1796483 exp=280410 elapsed=5s
+      [hb] open=3074330 seen=3186169 exp=503296 elapsed=10s
+      [hb] open=4144717 seen=4301885 exp=672070 elapsed=15s
+      [hb] open=5847171 seen=6088875 exp=949859 elapsed=20s
+[14/790] ac-09827 (len=15) FAILED (1007299 exp, 30.6641s)
+      [hb] open=1722340 seen=1775279 exp=277323 elapsed=5s
+      [hb] open=3142153 seen=3285093 exp=516053 elapsed=10s
+      [hb] open=4107017 seen=4264327 exp=667342 elapsed=15s
+      [hb] open=5776051 seen=6028361 exp=935568 elapsed=20s
+[15/790] ac-05811 (len=15) FAILED (991161 exp, 30.7397s)
+      [hb] open=1673665 seen=1704319 exp=274659 elapsed=5s
+      [hb] open=3196822 seen=3308279 exp=535367 elapsed=10s
+      [hb] open=4096329 seen=4256271 exp=679340 elapsed=15s
+      [hb] open=5795570 seen=6043631 exp=951130 elapsed=20s
+[16/790] ac-08984 (len=15) FAILED (1008702 exp, 31.0559s)
+      [hb] open=1577954 seen=1604019 exp=262123 elapsed=5s
+      [hb] open=3166539 seen=3213883 exp=519517 elapsed=10s
+      [hb] open=4113181 seen=4209151 exp=671634 elapsed=15s
+      [hb] open=5707219 seen=5910207 exp=936331 elapsed=20s
+[17/790] ac-01657 (len=15) FAILED (998822 exp, 30.4988s)
+      [hb] open=1568605 seen=1693865 exp=240871 elapsed=5s
+      [hb] open=3126386 seen=3340769 exp=483164 elapsed=10s
+      [hb] open=4190197 seen=4520131 exp=638156 elapsed=15s
+      [hb] open=5696179 seen=6207690 exp=871947 elapsed=20s
+[18/790] ac-08933 (len=15) FAILED (931298 exp, 30.7724s)
+      [hb] open=1465182 seen=1467311 exp=246502 elapsed=5s
+      [hb] open=3022367 seen=3050940 exp=506549 elapsed=10s
+      [hb] open=4176991 seen=4211197 exp=696929 elapsed=15s
+      [hb] open=5587332 seen=5712219 exp=936024 elapsed=20s
+[19/790] ac-05117 (len=15) FAILED (997966 exp, 29.7998s)
+      [hb] open=1273066 seen=1373239 exp=192414 elapsed=5s
+      [hb] open=2723946 seen=2913356 exp=424540 elapsed=10s
+      [hb] open=3920688 seen=4194309 exp=597580 elapsed=15s
+      [hb] open=5304877 seen=5729399 exp=808773 elapsed=20s
+[20/790] ac-05710 (len=15) FAILED (833189 exp, 28.8085s)
+      [hb] open=1476001 seen=1513412 exp=226193 elapsed=5s
+      [hb] open=2665977 seen=2758392 exp=420884 elapsed=10s
+      [hb] open=4029245 seen=4194313 exp=641307 elapsed=15s
+      [hb] open=5566476 seen=5790711 exp=890032 elapsed=20s
+[21/790] ac-04967 (len=15) FAILED (916128 exp, 30.1161s)
+      [hb] open=1640673 seen=1688983 exp=256244 elapsed=5s
+      [hb] open=2749741 seen=2774198 exp=446026 elapsed=10s
+      [hb] open=4118329 seen=4194306 exp=666608 elapsed=15s
+      [hb] open=5703656 seen=5914928 exp=931084 elapsed=20s
+[22/790] ac-08892 (len=15) FAILED (940904 exp, 30.1946s)
+      [hb] open=1741078 seen=1480662 exp=275428 elapsed=5s
+      [hb] open=3104905 seen=2620524 exp=516084 elapsed=10s
+      [hb] open=4776741 seen=4194307 exp=800600 elapsed=16s
+[23/790] ac-01083 (len=15) FAILED (1108427 exp, 30.45s)
+      [hb] open=1653558 seen=1760775 exp=253831 elapsed=5s
+      [hb] open=3004906 seen=3206884 exp=466194 elapsed=10s
+      [hb] open=3984508 seen=4290597 exp=611709 elapsed=15s
+      [hb] open=5702734 seen=6205881 exp=878930 elapsed=20s
+[24/790] ac-03266 (len=15) FAILED (938436 exp, 30.9875s)
+      [hb] open=1731169 seen=1801113 exp=273042 elapsed=5s
+      [hb] open=3224998 seen=3396831 exp=512834 elapsed=10s
+      [hb] open=4171417 seen=4348652 exp=660868 elapsed=15s
+      [hb] open=5880461 seen=6170382 exp=941497 elapsed=20s
+[25/790] ac-06801 (len=15) FAILED (989647 exp, 31.1993s)
+      [hb] open=1679049 seen=1734761 exp=258671 elapsed=5s
+      [hb] open=3214322 seen=3355018 exp=513810 elapsed=10s
+      [hb] open=4131118 seen=4298719 exp=658260 elapsed=15s
+      [hb] open=5795020 seen=6046973 exp=933845 elapsed=20s
+[26/790] ac-07128 (len=15) FAILED (987246 exp, 31.0077s)
+      [hb] open=1677557 seen=1715537 exp=271714 elapsed=5s
+      [hb] open=3277120 seen=3350086 exp=542074 elapsed=10s
+      [hb] open=4239318 seen=4349124 exp=692492 elapsed=15s
+      [hb] open=5839294 seen=6083302 exp=949070 elapsed=20s
+[27/790] ac-08168 (len=15) FAILED (1005480 exp, 30.1724s)
+      [hb] open=1563599 seen=1632880 exp=243545 elapsed=5s
+      [hb] open=3108794 seen=3275715 exp=488223 elapsed=10s
+      [hb] open=4197165 seen=4377477 exp=655111 elapsed=15s
+      [hb] open=5671127 seen=5892981 exp=894521 elapsed=20s
+[28/790] ac-02923 (len=15) FAILED (956092 exp, 30.5335s)
+      [hb] open=1397126 seen=1447427 exp=228342 elapsed=5s
+      [hb] open=2954334 seen=3020962 exp=478223 elapsed=10s
+      [hb] open=4152918 seen=4253462 exp=664477 elapsed=15s
+      [hb] open=5533135 seen=5738913 exp=889656 elapsed=20s
+[29/790] ac-02883 (len=15) FAILED (951660 exp, 29.0481s)
+      [hb] open=1417055 seen=1348117 exp=227797 elapsed=5s
+      [hb] open=2846529 seen=2867905 exp=467422 elapsed=10s
+      [hb] open=4190178 seen=4300001 exp=685676 elapsed=15s
+      [hb] open=5691847 seen=5685031 exp=941929 elapsed=20s
+[30/790] ac-04300 (len=15) FAILED (995993 exp, 29.4269s)
+      [hb] open=1593537 seen=1644010 exp=255499 elapsed=5s
+      [hb] open=2884288 seen=2949669 exp=471415 elapsed=10s
+      [hb] open=4197108 seen=4295954 exp=681668 elapsed=15s
+      [hb] open=5837204 seen=6070060 exp=959997 elapsed=20s
+[31/790] ac-07314 (len=15) FAILED (1002652 exp, 30.5288s)
+      [hb] open=1676090 seen=1649417 exp=282835 elapsed=5s
+      [hb] open=2911311 seen=2756995 exp=471748 elapsed=10s
+      [hb] open=4282731 seen=4194306 exp=708311 elapsed=15s
+      [hb] open=5954661 seen=5969932 exp=1016084 elapsed=20s
+[32/790] ac-09350 (len=15) FAILED (1056007 exp, 30.6017s)
+      [hb] open=1741956 seen=1784974 exp=281798 elapsed=5s
+      [hb] open=2848334 seen=2938935 exp=469776 elapsed=10s
+      [hb] open=4065884 seen=4194305 exp=664438 elapsed=15s
+      [hb] open=5768597 seen=6003264 exp=936926 elapsed=20s
+[33/790] ac-08807 (len=15) FAILED (981513 exp, 30.5711s)
+      [hb] open=1710518 seen=1752814 exp=275568 elapsed=5s
+      [hb] open=3106640 seen=3217923 exp=503697 elapsed=10s
+      [hb] open=4112175 seen=4257171 exp=663914 elapsed=15s
+      [hb] open=5805394 seen=5998658 exp=941893 elapsed=20s
+[34/790] ac-05762 (len=15) FAILED (994137 exp, 31.0472s)
+      [hb] open=1714807 seen=1740305 exp=284408 elapsed=5s
+      [hb] open=3164133 seen=3246811 exp=536892 elapsed=10s
+      [hb] open=4097080 seen=4194306 exp=686070 elapsed=15s
+      [hb] open=5687176 seen=5829590 exp=941756 elapsed=20s
+[35/790] ac-01956 (len=15) FAILED (1000200 exp, 30.7963s)
+      [hb] open=1663537 seen=1712612 exp=269790 elapsed=5s
+      [hb] open=3203786 seen=3282156 exp=526138 elapsed=10s
+      [hb] open=4104321 seen=4194313 exp=667902 elapsed=15s
+      [hb] open=5750042 seen=5943453 exp=942214 elapsed=20s
+[36/790] ac-02828 (len=15) FAILED (999150 exp, 30.2982s)
+      [hb] open=1670450 seen=1521619 exp=266014 elapsed=5s
+      [hb] open=3310590 seen=3209828 exp=550986 elapsed=10s
+      [hb] open=4357821 seen=4355600 exp=731846 elapsed=15s
+      [hb] open=5919255 seen=5909510 exp=1009653 elapsed=20s
+[37/790] ac-00472 (len=15) FAILED (1069800 exp, 30.3257s)
+      [hb] open=1495077 seen=1594610 exp=232380 elapsed=5s
+      [hb] open=3041516 seen=3221234 exp=478207 elapsed=10s
+      [hb] open=4211161 seen=4507512 exp=654836 elapsed=15s
+      [hb] open=5623724 seen=6086505 exp=879103 elapsed=20s
+[38/790] ac-06611 (len=15) FAILED (934190 exp, 30.1987s)
+      [hb] open=1286869 seen=1316399 exp=201085 elapsed=5s
+      [hb] open=2801091 seen=2924459 exp=444351 elapsed=10s
+      [hb] open=4079124 seen=4252554 exp=651516 elapsed=15s
+      [hb] open=5434359 seen=5666254 exp=870969 elapsed=20s
+[39/790] ac-07653 (len=15) FAILED (919778 exp, 29.0643s)
+      [hb] open=1356401 seen=1394959 exp=218711 elapsed=5s
+      [hb] open=2542136 seen=2575696 exp=411073 elapsed=10s
+      [hb] open=4113876 seen=4194310 exp=669075 elapsed=16s
+[40/790] ac-07698 (len=15) FAILED (886099 exp, 29.4291s)
+      [hb] open=1711300 seen=1797101 exp=259212 elapsed=5s
+      [hb] open=2871548 seen=3001491 exp=445062 elapsed=10s
+      [hb] open=4114263 seen=4298335 exp=642803 elapsed=15s
+      [hb] open=5791820 seen=6080783 exp=917353 elapsed=20s
+[41/790] ac-09294 (len=15) FAILED (964858 exp, 31.564s)
+      [hb] open=1664901 seen=1693989 exp=277270 elapsed=5s
+      [hb] open=2797267 seen=2845155 exp=465236 elapsed=10s
+      [hb] open=4115910 seen=4194306 exp=674784 elapsed=15s
+      [hb] open=5799726 seen=5981809 exp=963062 elapsed=20s
+[42/790] ac-02600 (len=15) FAILED (1000962 exp, 31.2193s)
+      [hb] open=1699033 seen=1762698 exp=270797 elapsed=5s
+      [hb] open=2919807 seen=3026184 exp=472651 elapsed=10s
+      [hb] open=4079819 seen=4234302 exp=651823 elapsed=15s
+      [hb] open=5781042 seen=6038327 exp=930452 elapsed=20s
+[43/790] ac-04619 (len=15) FAILED (985094 exp, 31.3205s)
+      [hb] open=1655707 seen=1710622 exp=267137 elapsed=5s
+      [hb] open=2895057 seen=3041597 exp=467452 elapsed=10s
+      [hb] open=3990378 seen=4199526 exp=637774 elapsed=15s
+      [hb] open=5714345 seen=5997516 exp=922435 elapsed=20s
+[44/790] ac-00568 (len=15) FAILED (976800 exp, 31.2266s)
+      [hb] open=1815114 seen=1674121 exp=296673 elapsed=5s
+      [hb] open=3270175 seen=3001690 exp=545116 elapsed=10s
+      [hb] open=4941932 seen=4194306 exp=805397 elapsed=16s
+[45/790] ac-06672 (len=15) FAILED (1130981 exp, 30.9117s)
+      [hb] open=1611951 seen=1687893 exp=254603 elapsed=5s
+      [hb] open=2991562 seen=3170537 exp=467296 elapsed=10s
+      [hb] open=3958948 seen=4194307 exp=614644 elapsed=15s
+      [hb] open=5675477 seen=5939586 exp=897285 elapsed=20s
+[46/790] ac-02576 (len=15) FAILED (937182 exp, 30.1s)
+      [hb] open=1723107 seen=1802553 exp=265662 elapsed=5s
+      [hb] open=3306815 seen=3461876 exp=523130 elapsed=10s
+      [hb] open=4234390 seen=4428447 exp=671767 elapsed=15s
+      [hb] open=5869312 seen=6160140 exp=930398 elapsed=20s
+[47/790] ac-03772 (len=15) FAILED (991185 exp, 32.416s)
+      [hb] open=1686425 seen=1737867 exp=268931 elapsed=5s
+      [hb] open=3276414 seen=3369224 exp=535066 elapsed=10s
+      [hb] open=4221879 seen=4356179 exp=685076 elapsed=15s
+      [hb] open=5844995 seen=6111082 exp=957332 elapsed=20s
+[48/790] ac-02217 (len=15) FAILED (1010238 exp, 30.7131s)
+      [hb] open=1592265 seen=1628887 exp=257443 elapsed=5s
+      [hb] open=3136519 seen=3185575 exp=519448 elapsed=10s
+      [hb] open=4154992 seen=4206058 exp=680533 elapsed=15s
+      [hb] open=5721331 seen=5850960 exp=947588 elapsed=20s
+[49/790] ac-05743 (len=15) FAILED (1002011 exp, 29.9673s)
+      [hb] open=1530221 seen=1563636 exp=240384 elapsed=5s
+      [hb] open=3076462 seen=3100390 exp=504577 elapsed=10s
+      [hb] open=4221726 seen=4280727 exp=690874 elapsed=15s
+      [hb] open=5633299 seen=5808224 exp=928258 elapsed=20s
+[50/790] ac-02563 (len=15) FAILED (989754 exp, 29.7556s)
+      [hb] open=1309044 seen=1346572 exp=211753 elapsed=5s
+      [hb] open=2827234 seen=2928731 exp=455332 elapsed=10s
+      [hb] open=4083729 seen=4215358 exp=653922 elapsed=15s
+      [hb] open=5465310 seen=5606975 exp=878102 elapsed=20s
+[51/790] ac-06349 (len=15) FAILED (923570 exp, 29.6386s)
+      [hb] open=1409056 seen=1411229 exp=224609 elapsed=5s
+      [hb] open=2692547 seen=2765001 exp=448373 elapsed=10s
+      [hb] open=4082686 seen=4194305 exp=674710 elapsed=15s
+      [hb] open=5594777 seen=5813811 exp=921092 elapsed=20s
+[52/790] ac-00719 (len=15) FAILED (954597 exp, 30.2858s)
+      [hb] open=1521845 seen=1550764 exp=258198 elapsed=5s
+      [hb] open=2658213 seen=2708084 exp=442070 elapsed=10s
+      [hb] open=4140147 seen=4194312 exp=676537 elapsed=15s
+      [hb] open=5700359 seen=5870410 exp=943901 elapsed=20s
+[53/790] ac-06785 (len=15) FAILED (964018 exp, 30.3167s)
+      [hb] open=1699464 seen=1824369 exp=261749 elapsed=5s
+      [hb] open=2832594 seen=3026314 exp=438802 elapsed=10s
+      [hb] open=4053452 seen=4372356 exp=620265 elapsed=15s
+      [hb] open=5752187 seen=6275415 exp=880570 elapsed=20s
+[54/790] ac-03623 (len=15) FAILED (940139 exp, 31.4812s)
+      [hb] open=1724431 seen=1846628 exp=264844 elapsed=5s
+      [hb] open=2917949 seen=3113887 exp=453293 elapsed=10s
+      [hb] open=4075351 seen=4384194 exp=625778 elapsed=15s
+      [hb] open=5774696 seen=6280213 exp=885461 elapsed=20s
+[55/790] ac-00738 (len=15) FAILED (945285 exp, 31.3229s)
+      [hb] open=1740456 seen=1668625 exp=276751 elapsed=5s
+      [hb] open=2998223 seen=2852720 exp=484908 elapsed=10s
+      [hb] open=4457085 seen=4194309 exp=719327 elapsed=15s
+      [hb] open=6188699 seen=5746775 exp=1020647 elapsed=20s
+[56/790] ac-01558 (len=15) FAILED (1037297 exp, 30.9307s)
+      [hb] open=1780590 seen=1420184 exp=282299 elapsed=5s
+      [hb] open=3111302 seen=2654989 exp=525426 elapsed=10s
+      [hb] open=4734167 seen=3914965 exp=807004 elapsed=15s
+      [hb] open=5947745 seen=5159406 exp=1054936 elapsed=20s
+[57/790] ac-03525 (len=15) FAILED (1131296 exp, 30.0905s)
+      [hb] open=1695616 seen=1719691 exp=279860 elapsed=5s
+      [hb] open=3138355 seen=3208007 exp=527422 elapsed=10s
+      [hb] open=4143311 seen=4194312 exp=685951 elapsed=15s
+      [hb] open=5842108 seen=5999984 exp=969925 elapsed=20s
+[58/790] ac-03471 (len=15) FAILED (1010317 exp, 30.9158s)
+      [hb] open=1653196 seen=1677687 exp=264296 elapsed=5s
+      [hb] open=3103533 seen=3203825 exp=514339 elapsed=10s
+      [hb] open=4059574 seen=4194305 exp=665034 elapsed=15s
+      [hb] open=5686291 seen=5907514 exp=938185 elapsed=20s
+[59/790] ac-01571 (len=15) FAILED (985171 exp, 30.2979s)
+      [hb] open=1570459 seen=1634598 exp=257340 elapsed=5s
+      [hb] open=3105137 seen=3153700 exp=507000 elapsed=10s
+      [hb] open=4150311 seen=4227783 exp=669346 elapsed=15s
+      [hb] open=5651523 seen=5860602 exp=919675 elapsed=20s
+[60/790] ac-10066 (len=15) FAILED (979763 exp, 29.9655s)
+      [hb] open=1449334 seen=1459214 exp=223529 elapsed=5s
+      [hb] open=2998663 seen=2970756 exp=485565 elapsed=10s
+      [hb] open=4182817 seen=4194306 exp=683493 elapsed=15s
+      [hb] open=5527787 seen=5652231 exp=916876 elapsed=20s
+[61/790] ac-09961 (len=15) FAILED (978630 exp, 29.286s)
+      [hb] open=1345704 seen=1370407 exp=213907 elapsed=5s
+      [hb] open=2656492 seen=2704042 exp=430995 elapsed=10s
+      [hb] open=4110550 seen=4194310 exp=672288 elapsed=15s
+      [hb] open=5565695 seen=5731508 exp=907954 elapsed=20s
+[62/790] ac-02216 (len=15) FAILED (921418 exp, 29.7082s)
+      [hb] open=1565668 seen=1604534 exp=251424 elapsed=5s
+      [hb] open=2767505 seen=2853315 exp=448984 elapsed=10s
+      [hb] open=4062358 seen=4194306 exp=656946 elapsed=15s
+      [hb] open=5682852 seen=5921904 exp=922362 elapsed=20s
+[63/790] ac-02422 (len=15) FAILED (967135 exp, 30.5945s)
+      [hb] open=1669910 seen=1731951 exp=261932 elapsed=5s
+      [hb] open=2796337 seen=2945099 exp=440302 elapsed=10s
+      [hb] open=4052012 seen=4237799 exp=638716 elapsed=15s
+      [hb] open=5776927 seen=6051500 exp=919069 elapsed=20s
+[64/790] ac-06572 (len=15) FAILED (973735 exp, 31.1229s)
+      [hb] open=1718457 seen=1755743 exp=275652 elapsed=5s
+      [hb] open=2892572 seen=2878458 exp=474640 elapsed=10s
+      [hb] open=4134340 seen=4194308 exp=686594 elapsed=15s
+      [hb] open=5821159 seen=6004553 exp=963130 elapsed=20s
+[65/790] ac-06576 (len=15) FAILED (1011538 exp, 30.885s)
+      [hb] open=1593077 seen=1617056 exp=267755 elapsed=5s
+      [hb] open=2778709 seen=2862409 exp=458687 elapsed=10s
+      [hb] open=4019981 seen=4194306 exp=657668 elapsed=15s
+      [hb] open=5665725 seen=5903787 exp=937990 elapsed=20s
+[66/790] ac-09232 (len=16) FAILED (959299 exp, 30.687s)
+      [hb] open=1763235 seen=1614629 exp=291734 elapsed=5s
+      [hb] open=3199873 seen=2842424 exp=557113 elapsed=10s
+      [hb] open=4658778 seen=4194305 exp=794748 elapsed=16s
+[67/790] ac-01399 (len=16) FAILED (1082413 exp, 30.4551s)
+      [hb] open=1771859 seen=1816346 exp=259225 elapsed=5s
+      [hb] open=3322936 seen=3014678 exp=499998 elapsed=10s
+      [hb] open=4590653 seen=4194310 exp=701490 elapsed=15s
+      [hb] open=6312472 seen=5942586 exp=1001085 elapsed=20s
+[68/790] ac-01440 (len=16) FAILED (1006324 exp, 31.2096s)
+      [hb] open=1651546 seen=1685919 exp=264240 elapsed=5s
+      [hb] open=3105838 seen=3155745 exp=511815 elapsed=10s
+      [hb] open=4194693 seen=4194309 exp=679789 elapsed=15s
+      [hb] open=5816377 seen=5860574 exp=943474 elapsed=20s
+[69/790] ac-00056 (len=16) FAILED (961051 exp, 31.2373s)
+      [hb] open=1533009 seen=1554098 exp=259226 elapsed=5s
+      [hb] open=2944587 seen=3039469 exp=489312 elapsed=10s
+      [hb] open=4048502 seen=4194311 exp=656990 elapsed=15s
+      [hb] open=5609418 seen=5839867 exp=908909 elapsed=20s
+[70/790] ac-00066 (len=16) FAILED (930238 exp, 29.4833s)
+      [hb] open=1371087 seen=1408288 exp=210908 elapsed=5s
+      [hb] open=2838708 seen=2924024 exp=452772 elapsed=10s
+      [hb] open=4121299 seen=4194311 exp=648611 elapsed=15s
+      [hb] open=5533094 seen=5651218 exp=876966 elapsed=20s
+[71/790] ac-00084 (len=16) FAILED (900561 exp, 29.7393s)
+      [hb] open=1290158 seen=1271593 exp=226857 elapsed=5s
+      [hb] open=2787188 seen=2754483 exp=470422 elapsed=10s
+      [hb] open=4248077 seen=4194308 exp=707311 elapsed=15s
+      [hb] open=5456729 seen=5335979 exp=917427 elapsed=20s
+[72/790] ac-09148 (len=16) FAILED (933452 exp, 29.2478s)
+      [hb] open=1444621 seen=1458713 exp=233364 elapsed=5s
+      [hb] open=2630422 seen=2736817 exp=433631 elapsed=10s
+      [hb] open=4166085 seen=4194309 exp=671795 elapsed=16s
+[73/790] ac-01486 (len=16) FAILED (910266 exp, 29.8605s)
+      [hb] open=1651969 seen=1723384 exp=267579 elapsed=5s
+      [hb] open=2781976 seen=2894939 exp=451457 elapsed=10s
+      [hb] open=4028632 seen=4196772 exp=638060 elapsed=15s
+      [hb] open=5675268 seen=5939138 exp=909314 elapsed=20s
+[74/790] ac-04095 (len=16) FAILED (955137 exp, 31.3009s)
+      [hb] open=1580815 seen=1433266 exp=275260 elapsed=5s
+      [hb] open=2693757 seen=2497260 exp=478540 elapsed=10s
+      [hb] open=4255389 seen=4178207 exp=765544 elapsed=15s
+      [hb] open=5420922 seen=5454883 exp=992056 elapsed=20s
+[75/790] ac-09138 (len=16) FAILED (1049340 exp, 30.3171s)
+      [hb] open=1635708 seen=1475711 exp=281075 elapsed=5s
+      [hb] open=2902078 seen=2626736 exp=508053 elapsed=10s
+      [hb] open=4436660 seen=4115792 exp=782915 elapsed=15s
+      [hb] open=5649425 seen=5345567 exp=1006752 elapsed=20s
+[76/790] ac-05983 (len=16) FAILED (1065223 exp, 30.2155s)
+      [hb] open=1721277 seen=1578519 exp=275985 elapsed=5s
+      [hb] open=3058113 seen=2892827 exp=492082 elapsed=10s
+      [hb] open=4412468 seen=4194307 exp=704446 elapsed=16s
+[77/790] ac-00137 (len=16) FAILED (979213 exp, 30.329s)
+      [hb] open=1574812 seen=1595637 exp=265034 elapsed=5s
+      [hb] open=2999539 seen=3098342 exp=497658 elapsed=10s
+      [hb] open=4049784 seen=4194308 exp=656038 elapsed=15s
+      [hb] open=5598953 seen=5831416 exp=906652 elapsed=20s
+[78/790] ac-01632 (len=16) FAILED (934679 exp, 29.8614s)
+      [hb] open=1541804 seen=1592282 exp=244452 elapsed=5s
+      [hb] open=2999641 seen=3122304 exp=471656 elapsed=10s
+      [hb] open=4086585 seen=4259002 exp=633159 elapsed=15s
+      [hb] open=5503027 seen=5746648 exp=878368 elapsed=20s
+[79/790] ac-05648 (len=16) FAILED (931607 exp, 30.3892s)
+      [hb] open=1340755 seen=1380337 exp=204996 elapsed=5s
+      [hb] open=2769715 seen=2933967 exp=439069 elapsed=10s
+      [hb] open=4016647 seen=4194308 exp=634348 elapsed=15s
+      [hb] open=5400356 seen=5634573 exp=849609 elapsed=20s
+[80/790] ac-08829 (len=16) FAILED (894788 exp, 28.9903s)
+      [hb] open=1319626 seen=1329871 exp=211217 elapsed=5s
+      [hb] open=2594373 seen=2688564 exp=428094 elapsed=10s
+      [hb] open=4163802 seen=4194310 exp=674227 elapsed=16s
+[81/790] ac-00254 (len=16) FAILED (894605 exp, 29.396s)
+      [hb] open=1559794 seen=1567877 exp=274531 elapsed=5s
+      [hb] open=2697372 seen=2696020 exp=458150 elapsed=10s
+      [hb] open=4152574 seen=4194311 exp=687372 elapsed=15s
+      [hb] open=5749324 seen=5911184 exp=949520 elapsed=20s
+[82/790] ac-04996 (len=16) FAILED (964044 exp, 30.8174s)
+      [hb] open=1602988 seen=1648126 exp=257338 elapsed=5s
+      [hb] open=2675753 seen=2751707 exp=430595 elapsed=10s
+      [hb] open=4070114 seen=4194311 exp=654155 elapsed=15s
+      [hb] open=5742449 seen=5967805 exp=924103 elapsed=20s
+[83/790] ac-02091 (len=16) FAILED (942448 exp, 31.0188s)
+      [hb] open=1674678 seen=1562847 exp=280605 elapsed=5s
+      [hb] open=2841762 seen=2717401 exp=489282 elapsed=10s
+      [hb] open=4295205 seen=4194307 exp=736229 elapsed=16s
+[84/790] ac-02178 (len=16) FAILED (1031809 exp, 30.8497s)
+      [hb] open=1658478 seen=1703602 exp=277800 elapsed=5s
+      [hb] open=2915405 seen=2967375 exp=478816 elapsed=10s
+      [hb] open=4118204 seen=4194307 exp=661111 elapsed=15s
+      [hb] open=5751986 seen=5935993 exp=938673 elapsed=20s
+[85/790] ac-08335 (len=16) FAILED (960103 exp, 31.3633s)
+      [hb] open=1574807 seen=1522192 exp=283683 elapsed=5s
+      [hb] open=2869880 seen=2747783 exp=501166 elapsed=10s
+      [hb] open=4212476 seen=4190840 exp=733824 elapsed=15s
+      [hb] open=5397327 seen=5456620 exp=947625 elapsed=20s
+[86/790] ac-04005 (len=16) FAILED (997314 exp, 30.3077s)
+      [hb] open=1574805 seen=1598215 exp=255534 elapsed=5s
+      [hb] open=2725813 seen=2792007 exp=451830 elapsed=10s
+      [hb] open=3793701 seen=3802417 exp=627336 elapsed=15s
+      [hb] open=5044726 seen=5067081 exp=820859 elapsed=20s
+[87/790] ac-08284 (len=16) FAILED (866231 exp, 29.1608s)
+      [hb] open=1517022 seen=1595281 exp=242554 elapsed=5s
+      [hb] open=2970335 seen=3141566 exp=471790 elapsed=10s
+      [hb] open=4025191 seen=4194315 exp=630513 elapsed=15s
+      [hb] open=5484974 seen=5726334 exp=858153 elapsed=20s
+[88/790] ac-08223 (len=16) FAILED (912283 exp, 29.9155s)
+      [hb] open=1262589 seen=1330150 exp=193452 elapsed=5s
+      [hb] open=2701011 seen=2809815 exp=421626 elapsed=10s
+      [hb] open=4040271 seen=4194306 exp=622571 elapsed=15s
+      [hb] open=5339855 seen=5602681 exp=843550 elapsed=20s
+[89/790] ac-02292 (len=16) FAILED (859484 exp, 29.2989s)
+      [hb] open=1307821 seen=1302724 exp=215114 elapsed=5s
+      [hb] open=2635513 seen=2623977 exp=429554 elapsed=10s
+      [hb] open=4181331 seen=4194309 exp=683816 elapsed=16s
+[90/790] ac-00392 (len=16) FAILED (917137 exp, 29.1171s)
+      [hb] open=1574809 seen=1515945 exp=266653 elapsed=5s
+      [hb] open=2688237 seen=2671980 exp=455426 elapsed=10s
+      [hb] open=4139846 seen=4194308 exp=697277 elapsed=15s
+      [hb] open=5727602 seen=5813361 exp=968578 elapsed=20s
+[91/790] ac-04630 (len=16) FAILED (979078 exp, 30.6471s)
+      [hb] open=1709791 seen=1684774 exp=291885 elapsed=5s
+      [hb] open=2845334 seen=2820682 exp=482966 elapsed=10s
+      [hb] open=4169249 seen=4194307 exp=694972 elapsed=15s
+      [hb] open=5813876 seen=5813507 exp=979228 elapsed=20s
+[92/790] ac-08038 (len=16) FAILED (1011542 exp, 31.0802s)
+      [hb] open=1656714 seen=1578342 exp=276578 elapsed=5s
+      [hb] open=2831714 seen=2772041 exp=480288 elapsed=10s
+      [hb] open=4167978 seen=4194312 exp=695716 elapsed=15s
+      [hb] open=5705962 seen=5869775 exp=978595 elapsed=20s
+[93/790] ac-02414 (len=16) FAILED (979580 exp, 30.705s)
+      [hb] open=1625191 seen=1462069 exp=290796 elapsed=5s
+      [hb] open=2876156 seen=2652666 exp=518227 elapsed=10s
+      [hb] open=4275575 seen=4096413 exp=780911 elapsed=15s
+      [hb] open=5490169 seen=5255183 exp=1009054 elapsed=20s
+[94/790] ac-07881 (len=16) FAILED (1077494 exp, 29.9787s)
+      [hb] open=1648453 seen=1664615 exp=264521 elapsed=5s
+      [hb] open=3092234 seen=3161323 exp=495278 elapsed=10s
+      [hb] open=4113202 seen=4194312 exp=652625 elapsed=15s
+      [hb] open=5674776 seen=5917221 exp=930857 elapsed=20s
+[95/790] ac-02555 (len=16) FAILED (955111 exp, 31.0828s)
+      [hb] open=1620429 seen=1667256 exp=258644 elapsed=5s
+      [hb] open=3095305 seen=3163357 exp=489470 elapsed=10s
+      [hb] open=4065584 seen=4194309 exp=637398 elapsed=15s
+      [hb] open=5648087 seen=5882275 exp=912369 elapsed=20s
+[96/790] ac-04661 (len=16) FAILED (951188 exp, 30.6193s)
+      [hb] open=1493177 seen=1508225 exp=236509 elapsed=5s
+      [hb] open=2875457 seen=3023374 exp=462519 elapsed=10s
+      [hb] open=3952377 seen=4194308 exp=633790 elapsed=15s
+      [hb] open=5433047 seen=5689984 exp=876359 elapsed=20s
+[97/790] ac-00008 (len=16) FAILED (908034 exp, 29.6371s)
+      [hb] open=1355677 seen=1405997 exp=208772 elapsed=5s
+      [hb] open=2831370 seen=2986275 exp=440709 elapsed=10s
+      [hb] open=3941767 seen=4198034 exp=618555 elapsed=15s
+      [hb] open=5314960 seen=5642371 exp=838052 elapsed=20s
+[98/790] ac-00491 (len=16) FAILED (877778 exp, 29.3606s)
+      [hb] open=1403583 seen=1148989 exp=263573 elapsed=5s
+      [hb] open=2700428 seen=2436619 exp=547858 elapsed=10s
+      [hb] open=3882358 seen=3699438 exp=756525 elapsed=15s
+      [hb] open=4765467 seen=4611855 exp=918258 elapsed=20s
+[99/790] ac-07807 (len=16) FAILED (964807 exp, 28.363s)
+      [hb] open=1589472 seen=1666184 exp=247013 elapsed=5s
+      [hb] open=2678109 seen=2787795 exp=422756 elapsed=10s
+      [hb] open=4036416 seen=4194311 exp=630283 elapsed=15s
+      [hb] open=5633703 seen=5851181 exp=895436 elapsed=20s
+[100/790] ac-04398 (len=16) FAILED (914049 exp, 31.3453s)
+      [hb] open=1574805 seen=1506548 exp=277597 elapsed=5s
+      [hb] open=2636845 seen=2513099 exp=463508 elapsed=10s
+      [hb] open=4155410 seen=4146259 exp=718550 elapsed=15s
+      [hb] open=5314960 seen=5363955 exp=924910 elapsed=20s
+[101/790] ac-07699 (len=16) FAILED (985443 exp, 30.0915s)
+      [hb] open=1613919 seen=1629551 exp=280329 elapsed=5s
+      [hb] open=2863055 seen=2902428 exp=485428 elapsed=10s
+      [hb] open=4109273 seen=4194310 exp=682138 elapsed=15s
+      [hb] open=5746619 seen=5954544 exp=956968 elapsed=20s
+[102/790] ac-04411 (len=16) FAILED (973292 exp, 30.9113s)
+      [hb] open=1574808 seen=1446008 exp=279520 elapsed=5s
+      [hb] open=2855434 seen=2654954 exp=518234 elapsed=10s
+      [hb] open=4173118 seen=4043399 exp=741648 elapsed=15s
+      [hb] open=5340005 seen=5281985 exp=966711 elapsed=20s
+[103/790] ac-04720 (len=16) FAILED (1022893 exp, 30.1218s)
+      [hb] open=1561316 seen=1462382 exp=274236 elapsed=5s
+      [hb] open=2927237 seen=2780458 exp=518038 elapsed=10s
+      [hb] open=4185241 seen=4049369 exp=731320 elapsed=15s
+      [hb] open=5314964 seen=5285314 exp=944135 elapsed=20s
+[104/790] ac-02698 (len=16) FAILED (998720 exp, 29.71s)
+      [hb] open=1418870 seen=1409806 exp=256526 elapsed=5s
+      [hb] open=2775847 seen=2794591 exp=474404 elapsed=10s
+      [hb] open=4074418 seen=4194312 exp=685071 elapsed=16s
+[105/790] ac-05499 (len=16) FAILED (931279 exp, 29.6396s)
+      [hb] open=1356444 seen=1313505 exp=224664 elapsed=5s
+      [hb] open=2895013 seen=2650771 exp=494676 elapsed=10s
+      [hb] open=4645964 seen=4171769 exp=781877 elapsed=15s
+      [hb] open=5606871 seen=4836162 exp=936786 elapsed=20s
+[106/790] ac-00692 (len=16) FAILED (987000 exp, 28.8234s)
+      [hb] open=1361097 seen=1371152 exp=216620 elapsed=5s
+      [hb] open=2557602 seen=2655082 exp=419522 elapsed=10s
+      [hb] open=4156732 seen=4183041 exp=670527 elapsed=15s
+      [hb] open=5266481 seen=5321284 exp=849250 elapsed=20s
+[107/790] ac-04429 (len=16) FAILED (879614 exp, 30.0345s)
+      [hb] open=1508859 seen=1526981 exp=243661 elapsed=5s
+      [hb] open=2440231 seen=2506967 exp=394794 elapsed=10s
+      [hb] open=3980231 seen=3981325 exp=646226 elapsed=15s
+      [hb] open=5214662 seen=5212011 exp=849057 elapsed=20s
+[108/790] ac-02803 (len=16) FAILED (880947 exp, 30.1836s)
+      [hb] open=1442997 seen=1465321 exp=236113 elapsed=5s
+      [hb] open=2408860 seen=2450362 exp=393164 elapsed=10s
+      [hb] open=3543316 seen=3639489 exp=580438 elapsed=15s
+      [hb] open=4574895 seen=4692107 exp=738408 elapsed=20s
+[109/790] ac-00726 (len=16) FAILED (785593 exp, 30.8187s)
+      [hb] open=1378991 seen=1414372 exp=219888 elapsed=5s
+      [hb] open=2367817 seen=2478655 exp=378037 elapsed=10s
+      [hb] open=3435880 seen=3571906 exp=553952 elapsed=15s
+      [hb] open=4330386 seen=4470726 exp=696834 elapsed=20s
+[110/790] ac-07355 (len=16) FAILED (746865 exp, 28.5775s)
+      [hb] open=1745336 seen=1533376 exp=304271 elapsed=5s
+      [hb] open=3249101 seen=2966366 exp=576478 elapsed=10s
+      [hb] open=4501118 seen=4194313 exp=801410 elapsed=16s
+[111/790] ac-07311 (len=16) FAILED (1076078 exp, 30.3938s)
+      [hb] open=1442883 seen=1463522 exp=233446 elapsed=5s
+      [hb] open=2797928 seen=2902476 exp=461340 elapsed=10s
+      [hb] open=4142218 seen=4177601 exp=676226 elapsed=15s
+      [hb] open=5193096 seen=5283892 exp=842993 elapsed=20s
+[112/790] ac-10099 (len=16) FAILED (879146 exp, 29.7902s)
+      [hb] open=1252870 seen=1245063 exp=198689 elapsed=5s
+      [hb] open=2637411 seen=2627880 exp=417289 elapsed=10s
+      [hb] open=4093675 seen=4194308 exp=657624 elapsed=16s
+[113/790] ac-05037 (len=16) FAILED (867684 exp, 29.1091s)
+      [hb] open=1312477 seen=1291831 exp=215112 elapsed=5s
+      [hb] open=2620831 seen=2666463 exp=429439 elapsed=10s
+      [hb] open=4032495 seen=4194310 exp=658472 elapsed=15s
+      [hb] open=5360989 seen=5575608 exp=887456 elapsed=20s
+[114/790] ac-05856 (len=16) FAILED (892709 exp, 29.3502s)
+      [hb] open=1639502 seen=1345787 exp=280428 elapsed=5s
+      [hb] open=2835620 seen=2433707 exp=494431 elapsed=10s
+      [hb] open=4524041 seen=3902481 exp=800093 elapsed=15s
+      [hb] open=5661125 seen=5061804 exp=1057729 elapsed=20s
+[115/790] ac-02976 (len=16) FAILED (1097026 exp, 30.7252s)
+      [hb] open=1563594 seen=1505986 exp=290148 elapsed=5s
+      [hb] open=2609937 seen=2547103 exp=465543 elapsed=10s
+      [hb] open=4135749 seen=4137189 exp=712050 elapsed=15s
+      [hb] open=5314962 seen=5322562 exp=916640 elapsed=20s
+[116/790] ac-02996 (len=16) FAILED (980278 exp, 30.3243s)
+      [hb] open=1574808 seen=1612076 exp=271360 elapsed=5s
+      [hb] open=2759371 seen=2782963 exp=462773 elapsed=10s
+      [hb] open=4117833 seen=4194313 exp=678538 elapsed=16s
+[117/790] ac-07064 (len=16) FAILED (932981 exp, 30.7558s)
+      [hb] open=1611260 seen=1601683 exp=272188 elapsed=5s
+      [hb] open=2925811 seen=2933053 exp=486130 elapsed=10s
+      [hb] open=4158726 seen=4194306 exp=683033 elapsed=15s
+      [hb] open=5757433 seen=5892900 exp=958809 elapsed=20s
+[118/790] ac-04512 (len=16) FAILED (960329 exp, 30.6304s)
+      [hb] open=1574810 seen=1503242 exp=282957 elapsed=5s
+      [hb] open=2897460 seen=2811440 exp=510306 elapsed=10s
+      [hb] open=4147210 seen=4123877 exp=718588 elapsed=15s
+      [hb] open=5338226 seen=5326953 exp=926018 elapsed=20s
+[119/790] ac-00927 (len=16) FAILED (979301 exp, 30.1989s)
+      [hb] open=1574807 seen=1606560 exp=256373 elapsed=5s
+      [hb] open=3042234 seen=3118749 exp=486585 elapsed=10s
+      [hb] open=4067668 seen=4194308 exp=643743 elapsed=15s
+      [hb] open=5597071 seen=5801362 exp=904326 elapsed=20s
+[120/790] ac-09921 (len=16) FAILED (930309 exp, 30.1692s)
+      [hb] open=1416722 seen=1434577 exp=236880 elapsed=5s
+      [hb] open=2831953 seen=2912190 exp=471121 elapsed=10s
+      [hb] open=4031455 seen=4194305 exp=664948 elapsed=15s
+      [hb] open=5479927 seen=5703783 exp=898712 elapsed=20s
+[121/790] ac-09920 (len=16) FAILED (905712 exp, 29.3867s)
+      [hb] open=1256622 seen=1185534 exp=219459 elapsed=5s
+      [hb] open=2716303 seen=2556701 exp=482132 elapsed=10s
+      [hb] open=4298092 seen=4194314 exp=751836 elapsed=16s
+[122/790] ac-06986 (len=16) FAILED (968870 exp, 28.9515s)
+      [hb] open=1446931 seen=1293103 exp=234028 elapsed=5s
+      [hb] open=2626658 seen=2484233 exp=443194 elapsed=10s
+      [hb] open=4166418 seen=4074511 exp=715671 elapsed=15s
+      [hb] open=5267849 seen=5219296 exp=932942 elapsed=20s
+[123/790] ac-03293 (len=16) FAILED (972761 exp, 30.0506s)
+      [hb] open=1716955 seen=1399098 exp=282263 elapsed=5s
+      [hb] open=2795832 seen=2423152 exp=490416 elapsed=10s
+      [hb] open=4513164 seen=3914604 exp=791399 elapsed=15s
+      [hb] open=5745035 seen=5089611 exp=1042131 elapsed=20s
+[124/790] ac-03301 (len=16) FAILED (1106916 exp, 30.2025s)
+      [hb] open=1623838 seen=1650264 exp=259361 elapsed=5s
+      [hb] open=2808153 seen=2834411 exp=453670 elapsed=10s
+      [hb] open=4108681 seen=4194308 exp=657294 elapsed=15s
+      [hb] open=5719616 seen=5915615 exp=943951 elapsed=20s
+[125/790] ac-04516 (len=16) FAILED (955718 exp, 30.9598s)
+      [hb] open=1635489 seen=1580982 exp=288919 elapsed=5s
+      [hb] open=2899592 seen=2753398 exp=509556 elapsed=10s
+      [hb] open=4276895 seen=4194305 exp=737291 elapsed=16s
+[126/790] ac-06734 (len=16) FAILED (1025579 exp, 30.4398s)
+      [hb] open=1537088 seen=1530685 exp=273975 elapsed=5s
+      [hb] open=2536081 seen=2467755 exp=433401 elapsed=10s
+      [hb] open=3494770 seen=3431525 exp=598215 elapsed=15s
+      [hb] open=4664510 seen=4653268 exp=790838 elapsed=20s
+[127/790] ac-05481 (len=16) FAILED (849175 exp, 29.2443s)
+      [hb] open=1450914 seen=1429496 exp=244792 elapsed=5s
+      [hb] open=2852913 seen=2848914 exp=478733 elapsed=10s
+      [hb] open=4165734 seen=4194310 exp=684464 elapsed=16s
+[128/790] ac-05878 (len=16) FAILED (921376 exp, 29.2201s)
+      [hb] open=1345411 seen=1347670 exp=212680 elapsed=5s
+      [hb] open=2800688 seen=2843728 exp=460751 elapsed=10s
+      [hb] open=4186733 seen=4194306 exp=680826 elapsed=15s
+      [hb] open=5499828 seen=5525944 exp=895388 elapsed=20s
+[129/790] ac-05468 (len=16) FAILED (901644 exp, 29.3534s)
+      [hb] open=1286902 seen=1326233 exp=198246 elapsed=5s
+      [hb] open=2598621 seen=2692337 exp=397260 elapsed=10s
+      [hb] open=4004228 seen=4194311 exp=615265 elapsed=16s
+[130/790] ac-03503 (len=16) FAILED (835717 exp, 29.0557s)
+      [hb] open=1540816 seen=1564456 exp=260865 elapsed=5s
+      [hb] open=2671247 seen=2700610 exp=450424 elapsed=10s
+      [hb] open=4130632 seen=4194305 exp=681835 elapsed=15s
+      [hb] open=5652268 seen=5856463 exp=947386 elapsed=20s
+[131/790] ac-01096 (len=16) FAILED (951184 exp, 30.6486s)
+      [hb] open=1661515 seen=1596903 exp=288608 elapsed=5s
+      [hb] open=2780305 seen=2682449 exp=479819 elapsed=10s
+      [hb] open=4200786 seen=4194308 exp=716217 elapsed=15s
+      [hb] open=5823950 seen=5849252 exp=1016602 elapsed=20s
+[132/790] ac-09571 (len=16) FAILED (1026422 exp, 31.6053s)
+      [hb] open=1623672 seen=1653443 exp=263263 elapsed=5s
+      [hb] open=2742411 seen=2880503 exp=441013 elapsed=10s
+      [hb] open=3962208 seen=4194308 exp=627910 elapsed=15s
+      [hb] open=5558858 seen=5891458 exp=898414 elapsed=20s
+[133/790] ac-09545 (len=16) FAILED (922824 exp, 31.3174s)
+      [hb] open=1574809 seen=1628435 exp=243093 elapsed=5s
+      [hb] open=2730269 seen=2793205 exp=435349 elapsed=10s
+      [hb] open=4126486 seen=4186698 exp=649846 elapsed=15s
+      [hb] open=5101260 seen=5184714 exp=807442 elapsed=20s
+[134/790] ac-09533 (len=16) FAILED (847105 exp, 30.9195s)
+      [hb] open=1524629 seen=1572733 exp=243710 elapsed=5s
+      [hb] open=2744203 seen=2860057 exp=443148 elapsed=10s
+      [hb] open=4071231 seen=4194309 exp=650475 elapsed=16s
+[135/790] ac-09519 (len=16) FAILED (899284 exp, 30.6047s)
+      [hb] open=1613245 seen=1590087 exp=284623 elapsed=5s
+      [hb] open=2996127 seen=2862502 exp=515564 elapsed=10s
+      [hb] open=4272023 seen=4194311 exp=731432 elapsed=16s
+[136/790] ac-04888 (len=16) FAILED (994485 exp, 30.4895s)
+      [hb] open=1588639 seen=1646406 exp=247706 elapsed=5s
+      [hb] open=2977424 seen=3085967 exp=467296 elapsed=10s
+      [hb] open=4048835 seen=4194305 exp=637041 elapsed=16s
+[137/790] ac-03545 (len=16) FAILED (900232 exp, 30.7402s)
+      [hb] open=1499715 seen=1527709 exp=237727 elapsed=5s
+      [hb] open=2863235 seen=2928842 exp=458530 elapsed=10s
+      [hb] open=4093463 seen=4194306 exp=646126 elapsed=16s
+[138/790] ac-06560 (len=16) FAILED (888058 exp, 29.553s)
+      [hb] open=1337244 seen=1334319 exp=226549 elapsed=5s
+      [hb] open=2757826 seen=2840931 exp=460456 elapsed=10s
+      [hb] open=4013755 seen=4194305 exp=662085 elapsed=15s
+      [hb] open=5355882 seen=5551717 exp=890077 elapsed=20s
+[139/790] ac-03628 (len=16) FAILED (904727 exp, 29.2006s)
+      [hb] open=1411942 seen=1444597 exp=208994 elapsed=5s
+      [hb] open=2845357 seen=2673634 exp=413321 elapsed=10s
+      [hb] open=4483826 seen=4157893 exp=673951 elapsed=15s
+      [hb] open=5526031 seen=5003716 exp=838346 elapsed=20s
+[140/790] ac-06388 (len=16) FAILED (890635 exp, 29.6621s)
+      [hb] open=1464446 seen=1477482 exp=235591 elapsed=5s
+      [hb] open=2362206 seen=2421827 exp=374173 elapsed=10s
+      [hb] open=3837361 seen=4040979 exp=621942 elapsed=15s
+      [hb] open=5002127 seen=5308944 exp=816622 elapsed=20s
+[141/790] ac-03706 (len=16) FAILED (860358 exp, 30.0814s)
+      [hb] open=1562622 seen=1594326 exp=254653 elapsed=5s
+      [hb] open=2580084 seen=2681449 exp=427203 elapsed=10s
+      [hb] open=4097555 seen=4136133 exp=664482 elapsed=15s
+      [hb] open=5314962 seen=5354685 exp=860728 elapsed=20s
+[142/790] ac-06325 (len=16) FAILED (909769 exp, 30.5384s)
+      [hb] open=1726893 seen=1668253 exp=276306 elapsed=5s
+      [hb] open=2949886 seen=2883763 exp=474688 elapsed=10s
+      [hb] open=4237383 seen=4194311 exp=679733 elapsed=15s
+      [hb] open=5941188 seen=5921205 exp=974891 elapsed=20s
+[143/790] ac-03824 (len=16) FAILED (997832 exp, 30.7974s)
+      [hb] open=1744564 seen=1467000 exp=311518 elapsed=5s
+      [hb] open=3034452 seen=2675896 exp=557193 elapsed=10s
+      [hb] open=4518310 seen=3800411 exp=810556 elapsed=15s
+      [hb] open=5669872 seen=5004096 exp=1049156 elapsed=20s
+[144/790] ac-06194 (len=16) FAILED (1118892 exp, 30.6683s)
+      [hb] open=1524683 seen=1508466 exp=260848 elapsed=5s
+      [hb] open=2843657 seen=2781206 exp=478945 elapsed=10s
+      [hb] open=4043363 seen=4034379 exp=667306 elapsed=15s
+      [hb] open=5280384 seen=5359148 exp=885370 elapsed=20s
+[145/790] ac-03847 (len=16) FAILED (930622 exp, 29.9237s)
+      [hb] open=1574808 seen=1602829 exp=273210 elapsed=5s
+      [hb] open=3031206 seen=3066190 exp=505880 elapsed=10s
+      [hb] open=4100790 seen=4194309 exp=668641 elapsed=15s
+      [hb] open=5629422 seen=5822623 exp=926512 elapsed=20s
+[146/790] ac-03949 (len=16) FAILED (942670 exp, 30.1277s)
+      [hb] open=1416061 seen=1382779 exp=231532 elapsed=5s
+      [hb] open=2821027 seen=2824730 exp=468181 elapsed=10s
+      [hb] open=4150618 seen=4194305 exp=684929 elapsed=16s
+[147/790] ac-06062 (len=17) FAILED (917974 exp, 29.7054s)
+      [hb] open=1202057 seen=1253642 exp=186676 elapsed=5s
+      [hb] open=2567422 seen=2609694 exp=401030 elapsed=10s
+      [hb] open=4064920 seen=4194311 exp=646920 elapsed=16s
+[148/790] ac-00045 (len=17) FAILED (860901 exp, 29.6119s)
+      [hb] open=1352544 seen=1431992 exp=208278 elapsed=5s
+      [hb] open=2523330 seen=2676470 exp=400161 elapsed=10s
+      [hb] open=3972563 seen=4194311 exp=621917 elapsed=16s
+[149/790] ac-06036 (len=17) FAILED (841108 exp, 29.6467s)
+      [hb] open=1522836 seen=1595297 exp=248814 elapsed=5s
+      [hb] open=2611374 seen=2732176 exp=422394 elapsed=10s
+      [hb] open=4036193 seen=4194311 exp=650460 elapsed=16s
+[150/790] ac-00095 (len=17) FAILED (896398 exp, 30.8465s)
+      [hb] open=1533220 seen=1577798 exp=245189 elapsed=5s
+      [hb] open=2495335 seen=2576527 exp=400138 elapsed=10s
+      [hb] open=3907661 seen=4116443 exp=625654 elapsed=15s
+      [hb] open=5183793 seen=5507426 exp=836380 elapsed=20s
+[151/790] ac-04079 (len=17) FAILED (877617 exp, 31.0405s)
+      [hb] open=1571031 seen=1598507 exp=252360 elapsed=5s
+      [hb] open=2692000 seen=2749578 exp=433090 elapsed=10s
+      [hb] open=4050479 seen=4118595 exp=661276 elapsed=15s
+      [hb] open=5303393 seen=5458593 exp=880808 elapsed=20s
+[152/790] ac-06022 (len=17) FAILED (913628 exp, 30.98s)
+      [hb] open=1457389 seen=1512040 exp=225694 elapsed=5s
+      [hb] open=2592899 seen=2649473 exp=400934 elapsed=10s
+      [hb] open=3888340 seen=4061607 exp=605212 elapsed=15s
+      [hb] open=5118222 seen=5424795 exp=818516 elapsed=20s
+[153/790] ac-00164 (len=17) FAILED (859717 exp, 30.3252s)
+      [hb] open=1600847 seen=1526581 exp=261337 elapsed=5s
+      [hb] open=2900069 seen=2904198 exp=487791 elapsed=10s
+      [hb] open=4091190 seen=4194305 exp=683503 elapsed=16s
+[154/790] ac-05412 (len=17) FAILED (956003 exp, 30.6352s)
+      [hb] open=1543407 seen=1632283 exp=231188 elapsed=5s
+      [hb] open=2836468 seen=2955592 exp=430962 elapsed=10s
+      [hb] open=3959067 seen=4194305 exp=603450 elapsed=16s
+[155/790] ac-00238 (len=17) FAILED (859208 exp, 30.2271s)
+      [hb] open=1506509 seen=1465316 exp=245766 elapsed=5s
+      [hb] open=2892706 seen=2886625 exp=486092 elapsed=10s
+      [hb] open=4116935 seen=4194312 exp=690866 elapsed=16s
+[156/790] ac-00256 (len=17) FAILED (927504 exp, 29.8589s)
+      [hb] open=1281798 seen=1226041 exp=201313 elapsed=5s
+      [hb] open=2655291 seen=2613391 exp=441213 elapsed=10s
+      [hb] open=4047069 seen=4105804 exp=677967 elapsed=15s
+      [hb] open=4937774 seen=5070422 exp=833524 elapsed=20s
+[157/790] ac-04172 (len=17) FAILED (897845 exp, 29.051s)
+      [hb] open=1322295 seen=1267173 exp=211967 elapsed=5s
+      [hb] open=2603279 seen=2576258 exp=432475 elapsed=10s
+      [hb] open=4031517 seen=4132137 exp=681660 elapsed=15s
+      [hb] open=5079700 seen=5270539 exp=861705 elapsed=20s
+[158/790] ac-05963 (len=17) FAILED (904186 exp, 30.0575s)
+      [hb] open=1403943 seen=1429727 exp=228602 elapsed=5s
+      [hb] open=2516712 seen=2542749 exp=406386 elapsed=10s
+      [hb] open=3963868 seen=4074862 exp=642631 elapsed=15s
+      [hb] open=5112415 seen=5346164 exp=834460 elapsed=20s
+[159/790] ac-05952 (len=17) FAILED (870963 exp, 30.4185s)
+      [hb] open=1663123 seen=1430848 exp=267898 elapsed=5s
+      [hb] open=2781086 seen=2310231 exp=460193 elapsed=10s
+      [hb] open=4387669 seen=3706118 exp=743280 elapsed=15s
+      [hb] open=5602694 seen=4946204 exp=989125 elapsed=20s
+[160/790] ac-05938 (len=17) FAILED (1050234 exp, 30.1584s)
+      [hb] open=1677426 seen=1619832 exp=297851 elapsed=5s
+      [hb] open=2890321 seen=2771280 exp=497105 elapsed=10s
+      [hb] open=4230899 seen=4194307 exp=714913 elapsed=16s
+[161/790] ac-00320 (len=17) FAILED (1008672 exp, 30.951s)
+      [hb] open=1574810 seen=1661162 exp=240425 elapsed=5s
+      [hb] open=2781479 seen=2868589 exp=433674 elapsed=10s
+      [hb] open=4029564 seen=4194307 exp=632759 elapsed=16s
+[162/790] ac-05928 (len=17) FAILED (880663 exp, 31.3964s)
+      [hb] open=1524721 seen=1597384 exp=239003 elapsed=5s
+      [hb] open=2696286 seen=2796374 exp=421581 elapsed=10s
+      [hb] open=3916418 seen=4113632 exp=611033 elapsed=15s
+      [hb] open=5209907 seen=5486390 exp=825456 elapsed=20s
+[163/790] ac-00363 (len=17) FAILED (869955 exp, 30.8969s)
+      [hb] open=1490191 seen=1531439 exp=239429 elapsed=5s
+      [hb] open=2698394 seen=2802789 exp=435591 elapsed=10s
+      [hb] open=3800683 seen=3961269 exp=612155 elapsed=15s
+      [hb] open=5126589 seen=5412988 exp=821060 elapsed=20s
+[164/790] ac-05924 (len=17) FAILED (862204 exp, 30.3892s)
+      [hb] open=1574804 seen=1567536 exp=252865 elapsed=5s
+      [hb] open=2955177 seen=3028917 exp=474755 elapsed=10s
+      [hb] open=4099098 seen=4194308 exp=658896 elapsed=16s
+[165/790] ac-05379 (len=17) FAILED (903169 exp, 30.7275s)
+      [hb] open=1405278 seen=1434652 exp=221648 elapsed=5s
+      [hb] open=2706216 seen=2788807 exp=428202 elapsed=10s
+      [hb] open=3930933 seen=4133110 exp=629827 elapsed=15s
+      [hb] open=4996698 seen=5331008 exp=810531 elapsed=20s
+[166/790] ac-05894 (len=17) FAILED (867814 exp, 31.1752s)
+      [hb] open=1360186 seen=1432086 exp=196962 elapsed=5s
+      [hb] open=2847228 seen=2854001 exp=427838 elapsed=10s
+      [hb] open=4122004 seen=4194305 exp=626715 elapsed=16s
+[167/790] ac-00449 (len=17) FAILED (864470 exp, 30.2509s)
+      [hb] open=1258826 seen=1289452 exp=204317 elapsed=5s
+      [hb] open=2576228 seen=2692378 exp=410090 elapsed=10s
+      [hb] open=4005715 seen=4188686 exp=640695 elapsed=15s
+      [hb] open=4964710 seen=5249081 exp=792801 elapsed=20s
+[168/790] ac-00454 (len=17) FAILED (848182 exp, 29.5327s)
+      [hb] open=1281360 seen=1354029 exp=194584 elapsed=5s
+      [hb] open=2531767 seen=2594612 exp=381715 elapsed=10s
+      [hb] open=4018630 seen=4194309 exp=612996 elapsed=16s
+[169/790] ac-00477 (len=17) FAILED (823698 exp, 30.4882s)
+      [hb] open=1378410 seen=1397349 exp=235053 elapsed=5s
+      [hb] open=2522549 seen=2571859 exp=414132 elapsed=10s
+      [hb] open=3925359 seen=3981444 exp=639680 elapsed=15s
+      [hb] open=5079504 seen=5197553 exp=828769 elapsed=20s
+[170/790] ac-00503 (len=17) FAILED (871985 exp, 30.6241s)
+      [hb] open=1430217 seen=1373050 exp=254967 elapsed=5s
+      [hb] open=2448547 seen=2443774 exp=425529 elapsed=10s
+      [hb] open=3886976 seen=3719571 exp=675328 elapsed=15s
+      [hb] open=5090216 seen=4956044 exp=873241 elapsed=20s
+[171/790] ac-04947 (len=17) FAILED (916931 exp, 29.8289s)
+      [hb] open=1570395 seen=1575237 exp=254390 elapsed=5s
+      [hb] open=2668258 seen=2702114 exp=436786 elapsed=10s
+      [hb] open=3957755 seen=4061057 exp=649090 elapsed=15s
+      [hb] open=5084436 seen=5220486 exp=833713 elapsed=20s
+[172/790] ac-00625 (len=17) FAILED (881270 exp, 30.5761s)
+      [hb] open=1613765 seen=1636555 exp=248180 elapsed=5s
+      [hb] open=2864720 seen=2683711 exp=449044 elapsed=10s
+      [hb] open=4124593 seen=3837797 exp=666694 elapsed=15s
+      [hb] open=5314961 seen=5065218 exp=868904 elapsed=20s
+[173/790] ac-00633 (len=17) FAILED (932081 exp, 30.1265s)
+      [hb] open=1574808 seen=1494193 exp=242235 elapsed=5s
+      [hb] open=2920673 seen=2797614 exp=477212 elapsed=10s
+      [hb] open=4163356 seen=3927050 exp=678970 elapsed=15s
+      [hb] open=5371804 seen=4806261 exp=886818 elapsed=20s
+[174/790] ac-04420 (len=17) FAILED (956953 exp, 29.6413s)
+      [hb] open=1498723 seen=1571059 exp=229021 elapsed=5s
+      [hb] open=2873715 seen=3018219 exp=438621 elapsed=10s
+      [hb] open=3949318 seen=4194309 exp=605794 elapsed=15s
+      [hb] open=5427976 seen=5773901 exp=848711 elapsed=20s
+[175/790] ac-00724 (len=17) FAILED (853935 exp, 30.0392s)
+      [hb] open=1320168 seen=1418178 exp=202009 elapsed=5s
+      [hb] open=2612848 seen=2753886 exp=411293 elapsed=10s
+      [hb] open=3948472 seen=4194311 exp=618766 elapsed=16s
+[176/790] ac-00764 (len=17) FAILED (827398 exp, 30.0153s)
+      [hb] open=1145200 seen=1243862 exp=174633 elapsed=5s
+      [hb] open=2392514 seen=2503755 exp=362280 elapsed=10s
+      [hb] open=3758518 seen=3926009 exp=571082 elapsed=15s
+      [hb] open=4718429 seen=4990710 exp=723421 elapsed=20s
+[177/790] ac-00773 (len=17) FAILED (769118 exp, 29.1898s)
+      [hb] open=1369673 seen=1402363 exp=225365 elapsed=5s
+      [hb] open=2523825 seen=2489338 exp=421260 elapsed=10s
+      [hb] open=3971127 seen=4008148 exp=660957 elapsed=15s
+      [hb] open=5074111 seen=5167390 exp=854649 elapsed=20s
+[178/790] ac-00816 (len=17) FAILED (902335 exp, 30.8368s)
+      [hb] open=1522586 seen=1242425 exp=288319 elapsed=5s
+      [hb] open=2582215 seen=2269911 exp=501928 elapsed=10s
+      [hb] open=4046739 seen=3735046 exp=764685 elapsed=15s
+      [hb] open=5242165 seen=4939679 exp=1006940 elapsed=20s
+[179/790] ac-09957 (len=17) FAILED (1043642 exp, 29.7993s)
+      [hb] open=1546331 seen=1568866 exp=257662 elapsed=5s
+      [hb] open=2642364 seen=2696066 exp=433012 elapsed=10s
+      [hb] open=3950035 seen=4133560 exp=645262 elapsed=15s
+      [hb] open=5133108 seen=5401368 exp=843140 elapsed=20s
+[180/790] ac-09926 (len=17) FAILED (884620 exp, 31.0269s)
+      [hb] open=1478277 seen=1549354 exp=231117 elapsed=5s
+      [hb] open=2544663 seen=2669597 exp=394754 elapsed=10s
+      [hb] open=3758481 seen=3939599 exp=586566 elapsed=15s
+      [hb] open=4997508 seen=5322585 exp=775263 elapsed=20s
+[181/790] ac-00912 (len=17) FAILED (832532 exp, 30.8965s)
+      [hb] open=1517441 seen=1578552 exp=243012 elapsed=5s
+      [hb] open=2681557 seen=2751251 exp=424919 elapsed=10s
+      [hb] open=3850295 seen=3988355 exp=607042 elapsed=15s
+      [hb] open=5077140 seen=5350625 exp=811996 elapsed=20s
+[182/790] ac-00953 (len=17) FAILED (857654 exp, 30.7989s)
+      [hb] open=1638938 seen=1506571 exp=318706 elapsed=5s
+      [hb] open=3023987 seen=2912675 exp=556668 elapsed=10s
+      [hb] open=4210870 seen=4102165 exp=743529 elapsed=15s
+      [hb] open=5400261 seen=5344979 exp=960921 elapsed=20s
+[183/790] ac-09906 (len=17) FAILED (1029837 exp, 30.8304s)
+      [hb] open=1536502 seen=1608031 exp=249876 elapsed=5s
+      [hb] open=2830707 seen=2929893 exp=456188 elapsed=10s
+      [hb] open=3958024 seen=4124118 exp=632719 elapsed=15s
+      [hb] open=5141717 seen=5412662 exp=813248 elapsed=20s
+[184/790] ac-00997 (len=17) FAILED (851899 exp, 30.8365s)
+      [hb] open=1421530 seen=1492348 exp=226637 elapsed=5s
+      [hb] open=2768047 seen=2872110 exp=436374 elapsed=10s
+      [hb] open=3999566 seen=4163478 exp=617040 elapsed=15s
+      [hb] open=5080577 seen=5329038 exp=793524 elapsed=20s
+[185/790] ac-09822 (len=17) FAILED (836222 exp, 29.8107s)
+      [hb] open=1246229 seen=1215292 exp=205657 elapsed=5s
+      [hb] open=2562989 seen=2507880 exp=446032 elapsed=10s
+      [hb] open=3859135 seen=3882539 exp=663608 elapsed=15s
+      [hb] open=4669457 seen=4751043 exp=793486 elapsed=20s
+[186/790] ac-01005 (len=17) FAILED (838110 exp, 29.0654s)
+      [hb] open=1367504 seen=1302183 exp=209354 elapsed=5s
+      [hb] open=2638432 seen=2646128 exp=426181 elapsed=10s
+      [hb] open=4129189 seen=3894392 exp=677247 elapsed=15s
+      [hb] open=5148155 seen=4899683 exp=848542 elapsed=20s
+[187/790] ac-09811 (len=17) FAILED (885927 exp, 29.7694s)
+      [hb] open=1400135 seen=1328108 exp=237882 elapsed=5s
+      [hb] open=2526008 seen=2427563 exp=435480 elapsed=10s
+      [hb] open=3943696 seen=3852290 exp=681309 elapsed=15s
+      [hb] open=5045268 seen=5012595 exp=871932 elapsed=20s
+[188/790] ac-09723 (len=17) FAILED (923804 exp, 30.1453s)
+      [hb] open=1559585 seen=1536848 exp=250469 elapsed=5s
+      [hb] open=2592457 seen=2583704 exp=423489 elapsed=10s
+      [hb] open=4002080 seen=4035746 exp=656840 elapsed=15s
+      [hb] open=5166856 seen=5301599 exp=861731 elapsed=20s
+[189/790] ac-04533 (len=17) FAILED (904345 exp, 31.3311s)
+      [hb] open=1470806 seen=1535320 exp=239997 elapsed=5s
+      [hb] open=2441510 seen=2525594 exp=390157 elapsed=10s
+      [hb] open=3724245 seen=3909732 exp=591610 elapsed=15s
+      [hb] open=4902860 seen=5202961 exp=782105 elapsed=20s
+[190/790] ac-09420 (len=17) FAILED (841038 exp, 30.5542s)
+      [hb] open=1551102 seen=1602371 exp=246340 elapsed=5s
+      [hb] open=2479564 seen=2610186 exp=392447 elapsed=10s
+      [hb] open=3721246 seen=3879943 exp=591623 elapsed=15s
+      [hb] open=4934220 seen=5209865 exp=780274 elapsed=20s
+[191/790] ac-01253 (len=17) FAILED (834946 exp, 30.8207s)
+      [hb] open=1475358 seen=1523562 exp=245094 elapsed=5s
+      [hb] open=2590014 seen=2686338 exp=420758 elapsed=10s
+      [hb] open=3543316 seen=3689526 exp=569460 elapsed=15s
+      [hb] open=4618881 seen=4877461 exp=738810 elapsed=20s
+[192/790] ac-01302 (len=17) FAILED (792113 exp, 29.8537s)
+      [hb] open=1516327 seen=1562774 exp=250610 elapsed=5s
+      [hb] open=2797740 seen=2925466 exp=456633 elapsed=10s
+      [hb] open=3884937 seen=4098539 exp=627566 elapsed=15s
+      [hb] open=5037646 seen=5377929 exp=806645 elapsed=20s
+[193/790] ac-01310 (len=17) FAILED (854606 exp, 30.6s)
+      [hb] open=1485677 seen=1415865 exp=248092 elapsed=5s
+      [hb] open=2815744 seen=2768505 exp=485718 elapsed=10s
+      [hb] open=4040633 seen=4059630 exp=681492 elapsed=15s
+      [hb] open=4995498 seen=5111261 exp=854878 elapsed=20s
+[194/790] ac-01314 (len=17) FAILED (913110 exp, 29.7405s)
+      [hb] open=1187403 seen=1199313 exp=186351 elapsed=5s
+      [hb] open=2538595 seen=2486399 exp=417315 elapsed=10s
+      [hb] open=3792986 seen=3803126 exp=628628 elapsed=15s
+      [hb] open=4515766 seen=4578527 exp=757399 elapsed=20s
+[195/790] ac-09329 (len=17) FAILED (807069 exp, 29.5539s)
+      [hb] open=1289210 seen=1204937 exp=204991 elapsed=5s
+      [hb] open=2555959 seen=2532514 exp=419139 elapsed=10s
+      [hb] open=4020237 seen=3818521 exp=672990 elapsed=15s
+      [hb] open=4983023 seen=4746113 exp=835937 elapsed=20s
+[196/790] ac-09310 (len=17) FAILED (893806 exp, 28.9526s)
+      [hb] open=1360906 seen=1426579 exp=210471 elapsed=5s
+      [hb] open=2385657 seen=2455155 exp=364031 elapsed=10s
+      [hb] open=3753685 seen=3918439 exp=579156 elapsed=15s
+      [hb] open=4899982 seen=5199628 exp=764682 elapsed=20s
+[197/790] ac-05749 (len=17) FAILED (808692 exp, 30.2241s)
+      [hb] open=1543572 seen=1613851 exp=234967 elapsed=5s
+      [hb] open=2535409 seen=2634975 exp=384140 elapsed=10s
+      [hb] open=3908081 seen=4110665 exp=599317 elapsed=15s
+      [hb] open=5123891 seen=5444253 exp=794418 elapsed=20s
+[198/790] ac-06407 (len=17) FAILED (833185 exp, 31.127s)
+      [hb] open=1571356 seen=1488679 exp=258934 elapsed=5s
+      [hb] open=2656076 seen=2623788 exp=446926 elapsed=10s
+      [hb] open=3995434 seen=4036654 exp=668607 elapsed=15s
+      [hb] open=5133754 seen=5286429 exp=868630 elapsed=20s
+[199/790] ac-09249 (len=17) FAILED (914477 exp, 30.8766s)
+      [hb] open=1494803 seen=1587801 exp=232884 elapsed=5s
+      [hb] open=2564421 seen=2712962 exp=408773 elapsed=10s
+      [hb] open=3794838 seen=3984575 exp=601194 elapsed=15s
+      [hb] open=4983636 seen=5304162 exp=786788 elapsed=20s
+[200/790] ac-02024 (len=17) FAILED (839669 exp, 30.1423s)
+      [hb] open=1544308 seen=1667955 exp=232574 elapsed=5s
+      [hb] open=2757958 seen=2946036 exp=420095 elapsed=10s
+      [hb] open=3891625 seen=4154851 exp=595764 elapsed=15s
+      [hb] open=5081478 seen=5378567 exp=785721 elapsed=20s
+[201/790] ac-07727 (len=17) FAILED (827955 exp, 30.4335s)
+      [hb] open=1722844 seen=1580671 exp=247417 elapsed=5s
+      [hb] open=3187910 seen=3042552 exp=481333 elapsed=10s
+      [hb] open=4295698 seen=4194307 exp=635687 elapsed=16s
+[202/790] ac-02617 (len=17) FAILED (914419 exp, 30.6798s)
+      [hb] open=1383139 seen=1458593 exp=213733 elapsed=5s
+      [hb] open=2682610 seen=2792249 exp=422353 elapsed=10s
+      [hb] open=3890774 seen=4084044 exp=609531 elapsed=15s
+      [hb] open=4987265 seen=5302806 exp=780433 elapsed=20s
+[203/790] ac-02282 (len=17) FAILED (835547 exp, 29.6265s)
+      [hb] open=1283795 seen=1326676 exp=202320 elapsed=5s
+      [hb] open=2687750 seen=2777470 exp=420032 elapsed=10s
+      [hb] open=4040564 seen=4194307 exp=636775 elapsed=16s
+[204/790] ac-08565 (len=17) FAILED (849206 exp, 29.5793s)
+      [hb] open=1093703 seen=1048580 exp=169260 elapsed=5s
+      [hb] open=2344247 seen=2328744 exp=390670 elapsed=10s
+      [hb] open=3694382 seen=3796752 exp=628043 elapsed=15s
+      [hb] open=4538914 seen=4726382 exp=759312 elapsed=20s
+[205/790] ac-05336 (len=17) FAILED (792931 exp, 28.6346s)
+      [hb] open=1435502 seen=1481967 exp=228544 elapsed=5s
+      [hb] open=2422245 seen=2513281 exp=382022 elapsed=10s
+      [hb] open=3798637 seen=4007755 exp=606918 elapsed=15s
+      [hb] open=4819706 seen=5140227 exp=764026 elapsed=20s
+[206/790] ac-05616 (len=17) FAILED (808476 exp, 30.9266s)
+      [hb] open=1493382 seen=1517912 exp=245973 elapsed=5s
+      [hb] open=2483113 seen=2537163 exp=401750 elapsed=10s
+      [hb] open=3832713 seen=3944492 exp=612508 elapsed=15s
+      [hb] open=4915112 seen=5107714 exp=789065 elapsed=20s
+[207/790] ac-08405 (len=17) FAILED (851216 exp, 31.1126s)
+      [hb] open=1566993 seen=1616319 exp=261191 elapsed=5s
+      [hb] open=2677644 seen=2745672 exp=438142 elapsed=10s
+      [hb] open=4014403 seen=4136470 exp=646423 elapsed=15s
+      [hb] open=5271738 seen=5444604 exp=846719 elapsed=20s
+[208/790] ac-05555 (len=17) FAILED (887647 exp, 31.035s)
+      [hb] open=1656491 seen=1372303 exp=270561 elapsed=5s
+      [hb] open=2870006 seen=2433271 exp=509383 elapsed=10s
+      [hb] open=4264350 seen=3346021 exp=762282 elapsed=15s
+      [hb] open=5318214 seen=4458627 exp=1031002 elapsed=20s
+[209/790] ac-08344 (len=17) FAILED (1087798 exp, 30.0051s)
+      [hb] open=1504071 seen=1487202 exp=258838 elapsed=5s
+      [hb] open=2737122 seen=2764799 exp=473335 elapsed=10s
+      [hb] open=3859659 seen=3935190 exp=657512 elapsed=15s
+      [hb] open=4988419 seen=5077734 exp=842062 elapsed=20s
+[210/790] ac-05512 (len=17) FAILED (899191 exp, 30.0504s)
+      [hb] open=1440075 seen=1500872 exp=227412 elapsed=5s
+      [hb] open=2692302 seen=2779524 exp=430732 elapsed=10s
+      [hb] open=3826962 seen=3968891 exp=602894 elapsed=15s
+      [hb] open=4853375 seen=5094459 exp=767532 elapsed=20s
+[211/790] ac-02722 (len=17) FAILED (822234 exp, 29.8399s)
+      [hb] open=1354354 seen=1291315 exp=216609 elapsed=5s
+      [hb] open=2690134 seen=2668260 exp=452217 elapsed=10s
+      [hb] open=3871673 seen=3915957 exp=648523 elapsed=15s
+      [hb] open=4683800 seen=4778169 exp=780965 elapsed=20s
+[212/790] ac-08620 (len=17) FAILED (840352 exp, 28.9087s)
+      [hb] open=1181617 seen=1252373 exp=185638 elapsed=5s
+      [hb] open=2432043 seen=2516176 exp=377711 elapsed=10s
+      [hb] open=3840325 seen=4008674 exp=595049 elapsed=15s
+      [hb] open=4738682 seen=5005112 exp=741059 elapsed=20s
+[213/790] ac-07635 (len=17) FAILED (783456 exp, 29.3851s)
+      [hb] open=1353259 seen=1399947 exp=220877 elapsed=5s
+      [hb] open=2429158 seen=2468557 exp=389375 elapsed=10s
+      [hb] open=3783675 seen=3947072 exp=621160 elapsed=15s
+      [hb] open=4865079 seen=5121168 exp=796606 elapsed=20s
+[214/790] ac-02751 (len=17) FAILED (845036 exp, 30.4267s)
+      [hb] open=1427201 seen=1443481 exp=243841 elapsed=5s
+      [hb] open=2423655 seen=2459593 exp=404878 elapsed=10s
+      [hb] open=3815752 seen=3937083 exp=638896 elapsed=15s
+      [hb] open=4928568 seen=5129717 exp=810338 elapsed=20s
+[215/790] ac-07567 (len=17) FAILED (852765 exp, 30.6825s)
+      [hb] open=1479198 seen=1540179 exp=247345 elapsed=5s
+      [hb] open=2476420 seen=2531858 exp=404439 elapsed=10s
+      [hb] open=3759333 seen=3905172 exp=615693 elapsed=15s
+      [hb] open=4917798 seen=5184986 exp=803248 elapsed=20s
+[216/790] ac-07556 (len=17) FAILED (859627 exp, 30.8546s)
+      [hb] open=1639936 seen=1494976 exp=250648 elapsed=5s
+      [hb] open=2816926 seen=2666492 exp=448825 elapsed=10s
+      [hb] open=4092427 seen=3894737 exp=658811 elapsed=15s
+      [hb] open=5314961 seen=5132313 exp=878602 elapsed=20s
+[217/790] ac-07553 (len=17) FAILED (926736 exp, 31.1186s)
+      [hb] open=1480196 seen=1510694 exp=241155 elapsed=5s
+      [hb] open=2632198 seen=2716108 exp=422165 elapsed=10s
+      [hb] open=3824363 seen=3959536 exp=612682 elapsed=15s
+      [hb] open=4929160 seen=5122623 exp=781173 elapsed=20s
+[218/790] ac-07513 (len=17) FAILED (839026 exp, 30.8485s)
+      [hb] open=1498415 seen=1541533 exp=237711 elapsed=5s
+      [hb] open=2655948 seen=2780866 exp=422779 elapsed=10s
+      [hb] open=3773089 seen=3955493 exp=602376 elapsed=15s
+      [hb] open=4957906 seen=5228582 exp=783094 elapsed=20s
+[219/790] ac-08064 (len=17) FAILED (838232 exp, 30.795s)
+      [hb] open=1550367 seen=1596857 exp=263224 elapsed=5s
+      [hb] open=2867004 seen=3001426 exp=477559 elapsed=10s
+      [hb] open=4010961 seen=4177466 exp=650254 elapsed=15s
+      [hb] open=5220521 seen=5360998 exp=851050 elapsed=20s
+[220/790] ac-07507 (len=17) FAILED (890816 exp, 30.1612s)
+      [hb] open=1460091 seen=1510134 exp=227466 elapsed=5s
+      [hb] open=2832236 seen=2960448 exp=445289 elapsed=10s
+      [hb] open=3952233 seen=4194310 exp=625847 elapsed=16s
+[221/790] ac-05020 (len=17) FAILED (849375 exp, 29.6975s)
+      [hb] open=1226794 seen=1184602 exp=203929 elapsed=5s
+      [hb] open=2542710 seen=2621315 exp=436843 elapsed=10s
+      [hb] open=3904692 seen=3994015 exp=664979 elapsed=15s
+      [hb] open=4696280 seen=4831266 exp=788620 elapsed=20s
+[222/790] ac-07359 (len=17) FAILED (844496 exp, 29.0283s)
+      [hb] open=1219388 seen=1241581 exp=191193 elapsed=5s
+      [hb] open=2362211 seen=2411790 exp=376166 elapsed=10s
+      [hb] open=3747104 seen=3840920 exp=597594 elapsed=15s
+      [hb] open=4678693 seen=4871633 exp=752675 elapsed=20s
+[223/790] ac-02319 (len=17) FAILED (793742 exp, 29.3419s)
+      [hb] open=1428279 seen=1510723 exp=220726 elapsed=5s
+      [hb] open=2430652 seen=2594265 exp=370394 elapsed=10s
+      [hb] open=3875161 seen=4093481 exp=592161 elapsed=15s
+      [hb] open=5085786 seen=5331397 exp=785179 elapsed=20s
+[224/790] ac-08692 (len=17) FAILED (821441 exp, 30.5673s)
+      [hb] open=1500366 seen=1534889 exp=239800 elapsed=5s
+      [hb] open=2530177 seen=2563075 exp=404364 elapsed=10s
+      [hb] open=3784198 seen=3886596 exp=610880 elapsed=15s
+      [hb] open=4785966 seen=5000662 exp=779241 elapsed=20s
+[225/790] ac-02332 (len=17) FAILED (835743 exp, 30.7664s)
+      [hb] open=1628880 seen=1621623 exp=239578 elapsed=5s
+      [hb] open=2767270 seen=2767601 exp=420230 elapsed=10s
+      [hb] open=4074134 seen=4146665 exp=615816 elapsed=15s
+      [hb] open=5306363 seen=5467640 exp=811555 elapsed=20s
+[226/790] ac-02839 (len=17) FAILED (855873 exp, 31.2471s)
+      [hb] open=1491058 seen=1416226 exp=249225 elapsed=5s
+      [hb] open=2622536 seen=2581928 exp=444489 elapsed=10s
+      [hb] open=3841950 seen=3831797 exp=653992 elapsed=15s
+      [hb] open=4923504 seen=4976147 exp=840770 elapsed=20s
+[227/790] ac-08765 (len=17) FAILED (901674 exp, 29.9251s)
+      [hb] open=1492764 seen=1594066 exp=226958 elapsed=5s
+      [hb] open=2715371 seen=2766122 exp=414625 elapsed=10s
+      [hb] open=3790230 seen=3892990 exp=587232 elapsed=15s
+      [hb] open=4888780 seen=5131522 exp=764240 elapsed=20s
+[228/790] ac-07338 (len=17) FAILED (819573 exp, 30.6395s)
+      [hb] open=1486942 seen=1577106 exp=227312 elapsed=5s
+      [hb] open=2750576 seen=2889005 exp=417943 elapsed=10s
+      [hb] open=3883396 seen=4089200 exp=590622 elapsed=15s
+      [hb] open=4938920 seen=5256234 exp=763181 elapsed=20s
+[229/790] ac-08814 (len=17) FAILED (823663 exp, 30.9026s)
+      [hb] open=1352568 seen=1329406 exp=235928 elapsed=5s
+      [hb] open=2608257 seen=2687026 exp=443732 elapsed=10s
+      [hb] open=3792164 seen=3859921 exp=636205 elapsed=15s
+      [hb] open=4667390 seen=4708345 exp=784944 elapsed=20s
+[230/790] ac-04610 (len=17) FAILED (838015 exp, 29.0045s)
+      [hb] open=1208070 seen=1256383 exp=191629 elapsed=5s
+      [hb] open=2528024 seen=2627570 exp=402880 elapsed=10s
+      [hb] open=3915081 seen=4079058 exp=621706 elapsed=15s
+      [hb] open=4691305 seen=4919943 exp=740869 elapsed=20s
+[231/790] ac-05029 (len=17) FAILED (793456 exp, 29.399s)
+      [hb] open=1392461 seen=1278777 exp=250417 elapsed=5s
+      [hb] open=2609505 seen=2272914 exp=465425 elapsed=10s
+      [hb] open=4055431 seen=3760912 exp=723265 elapsed=15s
+      [hb] open=5114436 seen=4688818 exp=912845 elapsed=20s
+[232/790] ac-02910 (len=17) FAILED (949712 exp, 29.4172s)
+      [hb] open=1456648 seen=1504179 exp=241721 elapsed=5s
+      [hb] open=2432473 seen=2532604 exp=386903 elapsed=10s
+      [hb] open=3866761 seen=3987138 exp=616453 elapsed=15s
+      [hb] open=4984280 seen=5191490 exp=795273 elapsed=20s
+[233/790] ac-08044 (len=17) FAILED (836725 exp, 30.7817s)
+      [hb] open=1594419 seen=1481673 exp=290068 elapsed=5s
+      [hb] open=2640257 seen=2494973 exp=476960 elapsed=10s
+      [hb] open=4008414 seen=3856745 exp=725834 elapsed=15s
+      [hb] open=5263992 seen=4939399 exp=939629 elapsed=20s
+[234/790] ac-05319 (len=17) FAILED (993496 exp, 29.9906s)
+      [hb] open=1468902 seen=1582903 exp=234588 elapsed=5s
+      [hb] open=2548013 seen=2784396 exp=396734 elapsed=10s
+      [hb] open=3750492 seen=4089803 exp=577976 elapsed=15s
+      [hb] open=4866573 seen=5275642 exp=743906 elapsed=20s
+[235/790] ac-02922 (len=17) FAILED (798116 exp, 30.5885s)
+      [hb] open=1519540 seen=1581043 exp=244856 elapsed=5s
+      [hb] open=2690861 seen=2796538 exp=432649 elapsed=10s
+      [hb] open=3819939 seen=3994821 exp=605708 elapsed=15s
+      [hb] open=4975588 seen=5231077 exp=782764 elapsed=20s
+[236/790] ac-08820 (len=17) FAILED (837297 exp, 30.9759s)
+      [hb] open=1454042 seen=1511797 exp=231303 elapsed=5s
+      [hb] open=2633841 seen=2732321 exp=418341 elapsed=10s
+      [hb] open=3708445 seen=3862244 exp=586438 elapsed=15s
+      [hb] open=4747523 seen=4978148 exp=750560 elapsed=20s
+[237/790] ac-07304 (len=17) FAILED (802720 exp, 29.9715s)
+      [hb] open=1438739 seen=1486751 exp=238191 elapsed=5s
+      [hb] open=2753388 seen=2846153 exp=454172 elapsed=10s
+      [hb] open=3982253 seen=4115537 exp=639741 elapsed=15s
+      [hb] open=4904845 seen=5110710 exp=790403 elapsed=20s
+[238/790] ac-08043 (len=17) FAILED (847996 exp, 30.4375s)
+      [hb] open=1480616 seen=1429278 exp=248205 elapsed=5s
+      [hb] open=3013486 seen=2407779 exp=486199 elapsed=10s
+      [hb] open=4355292 seen=3726374 exp=724045 elapsed=15s
+      [hb] open=5314961 seen=4670579 exp=902125 elapsed=20s
+[239/790] ac-07270 (len=17) FAILED (954064 exp, 29.0399s)
+      [hb] open=1226898 seen=1168903 exp=190937 elapsed=5s
+      [hb] open=2501948 seen=2491987 exp=415598 elapsed=10s
+      [hb] open=3912841 seen=4024434 exp=655379 elapsed=15s
+      [hb] open=4728076 seen=4884366 exp=800024 elapsed=20s
+[240/790] ac-08039 (len=17) FAILED (843617 exp, 29.3137s)
+      [hb] open=1306680 seen=1411231 exp=197659 elapsed=5s
+      [hb] open=2348200 seen=2557316 exp=360028 elapsed=10s
+      [hb] open=3659117 seen=3937974 exp=558263 elapsed=15s
+      [hb] open=4634281 seen=4983810 exp=707083 elapsed=20s
+[241/790] ac-07258 (len=17) FAILED (749507 exp, 29.7575s)
+      [hb] open=1439692 seen=1503793 exp=220689 elapsed=5s
+      [hb] open=2372091 seen=2448706 exp=364613 elapsed=10s
+      [hb] open=3658657 seen=3815987 exp=567953 elapsed=15s
+      [hb] open=4705308 seen=4970840 exp=731902 elapsed=20s
+[242/790] ac-07252 (len=17) FAILED (790412 exp, 30.7442s)
+      [hb] open=1636640 seen=1576117 exp=262466 elapsed=5s
+      [hb] open=2781491 seen=2632629 exp=460398 elapsed=10s
+      [hb] open=4100425 seen=3833416 exp=704725 elapsed=15s
+      [hb] open=5189479 seen=4955250 exp=893770 elapsed=20s
+[243/790] ac-02992 (len=17) FAILED (940231 exp, 30.4444s)
+      [hb] open=1407483 seen=1442758 exp=244215 elapsed=5s
+      [hb] open=2478016 seen=2576449 exp=419976 elapsed=10s
+      [hb] open=3592059 seen=3776016 exp=597613 elapsed=15s
+      [hb] open=4648828 seen=4898368 exp=759314 elapsed=20s
+[244/790] ac-07247 (len=17) FAILED (816306 exp, 30.1476s)
+      [hb] open=1461982 seen=1473529 exp=231700 elapsed=5s
+      [hb] open=2728414 seen=2752585 exp=445047 elapsed=10s
+      [hb] open=3826818 seen=3896346 exp=622228 elapsed=15s
+      [hb] open=4780363 seen=4934774 exp=789308 elapsed=20s
+[245/790] ac-02370 (len=17) FAILED (849405 exp, 30.0953s)
+      [hb] open=1403409 seen=1487976 exp=217390 elapsed=5s
+      [hb] open=2530112 seen=2679327 exp=401143 elapsed=10s
+      [hb] open=3540074 seen=3736891 exp=555131 elapsed=15s
+      [hb] open=4209922 seen=4463090 exp=661726 elapsed=20s
+[246/790] ac-07239 (len=17) FAILED (708038 exp, 28.0155s)
+      [hb] open=1073494 seen=1108278 exp=169629 elapsed=5s
+      [hb] open=2312981 seen=2345861 exp=369968 elapsed=10s
+      [hb] open=3639045 seen=3713467 exp=586158 elapsed=15s
+      [hb] open=4409236 seen=4546360 exp=708499 elapsed=20s
+[247/790] ac-07231 (len=17) FAILED (755747 exp, 28.2628s)
+      [hb] open=1422365 seen=1360252 exp=234156 elapsed=5s
+      [hb] open=2492153 seen=2466930 exp=417225 elapsed=10s
+      [hb] open=3926320 seen=3989911 exp=656527 elapsed=15s
+      [hb] open=4948291 seen=5100445 exp=841417 elapsed=20s
+[248/790] ac-07212 (len=17) FAILED (894595 exp, 30.6142s)
+      [hb] open=1407269 seen=1502115 exp=220245 elapsed=5s
+      [hb] open=2330370 seen=2517514 exp=366734 elapsed=10s
+      [hb] open=3547384 seen=3826763 exp=555965 elapsed=15s
+      [hb] open=4564052 seen=4890637 exp=704911 elapsed=20s
+[249/790] ac-03074 (len=17) FAILED (753324 exp, 29.9502s)
+      [hb] open=1496843 seen=1571415 exp=239067 elapsed=5s
+      [hb] open=2554324 seen=2730741 exp=406441 elapsed=10s
+      [hb] open=3783443 seen=4005610 exp=599312 elapsed=15s
+      [hb] open=4902949 seen=5172684 exp=777462 elapsed=20s
+[250/790] ac-05354 (len=17) FAILED (830217 exp, 30.1626s)
+      [hb] open=1563119 seen=1504788 exp=241333 elapsed=5s
+      [hb] open=2728631 seen=2706901 exp=444112 elapsed=10s
+      [hb] open=3840045 seen=3814713 exp=632808 elapsed=15s
+      [hb] open=5053484 seen=5035086 exp=832209 elapsed=20s
+[251/790] ac-07069 (len=17) FAILED (879047 exp, 29.837s)
+      [hb] open=1445794 seen=1502533 exp=238929 elapsed=5s
+      [hb] open=2664096 seen=2756307 exp=431974 elapsed=10s
+      [hb] open=3576580 seen=3731286 exp=576597 elapsed=15s
+      [hb] open=4422893 seen=4669846 exp=706992 elapsed=20s
+[252/790] ac-02227 (len=17) FAILED (761234 exp, 29.7757s)
+      [hb] open=1288357 seen=1341587 exp=201851 elapsed=5s
+      [hb] open=2539142 seen=2612078 exp=388225 elapsed=10s
+      [hb] open=3760929 seen=3921163 exp=583486 elapsed=15s
+      [hb] open=4556075 seen=4753316 exp=708405 elapsed=20s
+[253/790] ac-07971 (len=17) FAILED (764282 exp, 29.67s)
+      [hb] open=1296951 seen=1199624 exp=225815 elapsed=5s
+      [hb] open=2681732 seen=2565539 exp=474685 elapsed=10s
+      [hb] open=4082806 seen=4055549 exp=707748 elapsed=15s
+      [hb] open=4929583 seen=4913124 exp=847196 elapsed=20s
+[254/790] ac-08882 (len=17) FAILED (897446 exp, 28.9827s)
+      [hb] open=1303200 seen=1367481 exp=215864 elapsed=5s
+      [hb] open=2373228 seen=2461855 exp=382717 elapsed=10s
+      [hb] open=3632824 seen=3814787 exp=582209 elapsed=15s
+      [hb] open=4541805 seen=4822603 exp=730406 elapsed=20s
+[255/790] ac-06852 (len=17) FAILED (770493 exp, 29.3653s)
+      [hb] open=1513253 seen=1543144 exp=256288 elapsed=5s
+      [hb] open=2535868 seen=2582427 exp=415431 elapsed=10s
+      [hb] open=3898615 seen=4004751 exp=640733 elapsed=15s
+      [hb] open=4962599 seen=5157833 exp=809686 elapsed=20s
+[256/790] ac-03148 (len=17) FAILED (867334 exp, 31.1594s)
+      [hb] open=1493340 seen=1553538 exp=247718 elapsed=5s
+      [hb] open=2543670 seen=2655665 exp=418837 elapsed=10s
+      [hb] open=3854529 seen=4064339 exp=622389 elapsed=15s
+      [hb] open=4972740 seen=5251033 exp=793307 elapsed=20s
+[257/790] ac-06842 (len=17) FAILED (845329 exp, 30.7757s)
+      [hb] open=1494352 seen=1526470 exp=254877 elapsed=5s
+      [hb] open=2546484 seen=2661399 exp=433743 elapsed=10s
+      [hb] open=3734984 seen=3915522 exp=625413 elapsed=15s
+      [hb] open=4832684 seen=5077924 exp=792497 elapsed=20s
+[258/790] ac-06835 (len=17) FAILED (847886 exp, 30.5233s)
+      [hb] open=1510154 seen=1450207 exp=268718 elapsed=5s
+      [hb] open=2722115 seen=2603060 exp=481076 elapsed=10s
+      [hb] open=3871094 seen=3757268 exp=678714 elapsed=15s
+      [hb] open=4941729 seen=4879884 exp=862398 elapsed=20s
+[259/790] ac-03255 (len=17) FAILED (922868 exp, 30.1657s)
+      [hb] open=1475425 seen=1546870 exp=239434 elapsed=5s
+      [hb] open=2706944 seen=2809286 exp=432411 elapsed=10s
+      [hb] open=3786694 seen=3929284 exp=604332 elapsed=15s
+      [hb] open=4812942 seen=5069309 exp=761061 elapsed=20s
+[260/790] ac-01761 (len=17) FAILED (817402 exp, 30.4741s)
+      [hb] open=1340445 seen=1426720 exp=202359 elapsed=5s
+      [hb] open=2556678 seen=2757873 exp=402726 elapsed=10s
+      [hb] open=3738947 seen=3985892 exp=584220 elapsed=15s
+      [hb] open=4594084 seen=4903155 exp=710374 elapsed=20s
+[261/790] ac-01760 (len=17) FAILED (761775 exp, 28.9731s)
+      [hb] open=1191886 seen=1238462 exp=185965 elapsed=5s
+      [hb] open=2456776 seen=2624524 exp=384901 elapsed=10s
+      [hb] open=3853009 seen=3936704 exp=603714 elapsed=15s
+      [hb] open=4717886 seen=4629480 exp=734987 elapsed=20s
+[262/790] ac-06789 (len=17) FAILED (792745 exp, 29.1504s)
+      [hb] open=1285691 seen=1364363 exp=194469 elapsed=5s
+      [hb] open=2423932 seen=2528945 exp=369079 elapsed=10s
+      [hb] open=3855310 seen=4028585 exp=591754 elapsed=15s
+      [hb] open=4838989 seen=5071458 exp=743773 elapsed=20s
+[263/790] ac-08409 (len=17) FAILED (788553 exp, 29.6581s)
+      [hb] open=1403587 seen=1435294 exp=223954 elapsed=5s
+      [hb] open=2442992 seen=2469788 exp=386728 elapsed=10s
+      [hb] open=3875189 seen=3980976 exp=619593 elapsed=15s
+      [hb] open=4886874 seen=5107734 exp=793295 elapsed=20s
+[264/790] ac-04648 (len=17) FAILED (841044 exp, 30.5954s)
+      [hb] open=1474640 seen=1468024 exp=247552 elapsed=5s
+      [hb] open=2476578 seen=2512931 exp=408702 elapsed=10s
+      [hb] open=3770700 seen=3876425 exp=621466 elapsed=15s
+      [hb] open=4755411 seen=4897042 exp=774034 elapsed=20s
+[265/790] ac-09005 (len=17) FAILED (832106 exp, 30.7405s)
+      [hb] open=1504701 seen=1469803 exp=251628 elapsed=5s
+      [hb] open=2597852 seen=2589047 exp=436311 elapsed=10s
+      [hb] open=3849451 seen=3913985 exp=650390 elapsed=15s
+      [hb] open=4887640 seen=5013608 exp=825358 elapsed=20s
+[266/790] ac-06760 (len=17) FAILED (885579 exp, 30.2671s)
+      [hb] open=1574806 seen=1495365 exp=275510 elapsed=5s
+      [hb] open=2883719 seen=2647103 exp=502143 elapsed=10s
+      [hb] open=4076391 seen=3789031 exp=711112 elapsed=15s
+      [hb] open=5211480 seen=4820882 exp=916632 elapsed=20s
+[267/790] ac-06747 (len=17) FAILED (958930 exp, 29.8173s)
+      [hb] open=1421996 seen=1532281 exp=228183 elapsed=5s
+      [hb] open=2629424 seen=2880844 exp=409379 elapsed=10s
+      [hb] open=3726455 seen=4063656 exp=573864 elapsed=15s
+      [hb] open=4643361 seen=5034138 exp=712450 elapsed=20s
+[268/790] ac-06743 (len=17) FAILED (765881 exp, 30.3074s)
+      [hb] open=1415307 seen=1333818 exp=261512 elapsed=5s
+      [hb] open=2725218 seen=2598209 exp=524684 elapsed=10s
+      [hb] open=4001269 seen=3896391 exp=718182 elapsed=15s
+      [hb] open=4872367 seen=4816512 exp=856208 elapsed=20s
+[269/790] ac-02234 (len=17) FAILED (917699 exp, 29.2672s)
+      [hb] open=1165753 seen=1193786 exp=194574 elapsed=5s
+      [hb] open=2387861 seen=2508528 exp=396081 elapsed=10s
+      [hb] open=3736408 seen=3937266 exp=608897 elapsed=15s
+      [hb] open=4464954 seen=4740380 exp=724899 elapsed=20s
+[270/790] ac-06723 (len=17) FAILED (770039 exp, 28.7314s)
+      [hb] open=1448558 seen=1287644 exp=233935 elapsed=5s
+      [hb] open=2627031 seen=2389667 exp=459227 elapsed=10s
+      [hb] open=4082659 seen=3820862 exp=736518 elapsed=15s
+      [hb] open=5159641 seen=4931197 exp=940323 elapsed=20s
+[271/790] ac-01519 (len=17) FAILED (972866 exp, 29.923s)
+      [hb] open=1460022 seen=1515281 exp=234937 elapsed=5s
+      [hb] open=2421926 seen=2494832 exp=382616 elapsed=10s
+      [hb] open=3802698 seen=3918436 exp=604273 elapsed=15s
+      [hb] open=4698862 seen=4896633 exp=746184 elapsed=20s
+[272/790] ac-03393 (len=17) FAILED (793019 exp, 30.5569s)
+      [hb] open=1638117 seen=1411796 exp=272207 elapsed=5s
+      [hb] open=2739287 seen=2406209 exp=480843 elapsed=10s
+      [hb] open=4059400 seen=3734489 exp=713156 elapsed=15s
+      [hb] open=5169650 seen=4854125 exp=941661 elapsed=20s
+[273/790] ac-06663 (len=17) FAILED (990309 exp, 30.2719s)
+      [hb] open=1477884 seen=1510018 exp=242718 elapsed=5s
+      [hb] open=2557593 seen=2624722 exp=410409 elapsed=10s
+      [hb] open=3663424 seen=3816637 exp=590105 elapsed=15s
+      [hb] open=4582148 seen=4839303 exp=744925 elapsed=20s
+[274/790] ac-09020 (len=17) FAILED (799553 exp, 30.0421s)
+      [hb] open=1492891 seen=1590807 exp=223941 elapsed=5s
+      [hb] open=2729127 seen=2797866 exp=412162 elapsed=10s
+      [hb] open=3795084 seen=3956457 exp=579850 elapsed=15s
+      [hb] open=4837855 seen=5115622 exp=749355 elapsed=20s
+[275/790] ac-01502 (len=17) FAILED (808171 exp, 30.6786s)
+      [hb] open=1404685 seen=1477792 exp=214154 elapsed=5s
+      [hb] open=2621234 seen=2707129 exp=403373 elapsed=10s
+      [hb] open=3718302 seen=3886660 exp=577816 elapsed=15s
+      [hb] open=4585755 seen=4816791 exp=717206 elapsed=20s
+[276/790] ac-07958 (len=17) FAILED (771535 exp, 29.6658s)
+      [hb] open=1302768 seen=1364638 exp=196527 elapsed=5s
+      [hb] open=2559251 seen=2659866 exp=385583 elapsed=10s
+      [hb] open=3796688 seen=3999539 exp=580153 elapsed=15s
+      [hb] open=4614211 seen=4887648 exp=708146 elapsed=20s
+[277/790] ac-02096 (len=17) FAILED (762199 exp, 29.5468s)
+      [hb] open=1153639 seen=1238373 exp=178255 elapsed=5s
+      [hb] open=2406898 seen=2624234 exp=372692 elapsed=10s
+      [hb] open=3752772 seen=4057230 exp=579278 elapsed=15s
+      [hb] open=4555027 seen=4932567 exp=696182 elapsed=20s
+[278/790] ac-09081 (len=17) FAILED (737917 exp, 28.8417s)
+      [hb] open=1457503 seen=1500181 exp=255296 elapsed=5s
+      [hb] open=2608443 seen=2566042 exp=449684 elapsed=10s
+      [hb] open=4049437 seen=4014746 exp=671441 elapsed=15s
+      [hb] open=5051297 seen=5075518 exp=830204 elapsed=20s
+[279/790] ac-02190 (len=17) FAILED (879313 exp, 30.9185s)
+      [hb] open=1358566 seen=1451925 exp=214667 elapsed=5s
+      [hb] open=2168731 seen=2321035 exp=335140 elapsed=10s
+      [hb] open=3543313 seen=3601642 exp=546862 elapsed=15s
+      [hb] open=4502233 seen=4646344 exp=700184 elapsed=20s
+[280/790] ac-01481 (len=17) FAILED (736244 exp, 29.3062s)
+      [hb] open=1675679 seen=1592701 exp=251438 elapsed=5s
+      [hb] open=2904337 seen=2674481 exp=442135 elapsed=10s
+      [hb] open=4249401 seen=3901404 exp=653001 elapsed=15s
+      [hb] open=5390043 seen=4788879 exp=837608 elapsed=20s
+[281/790] ac-01475 (len=17) FAILED (898281 exp, 30.3606s)
+      [hb] open=1533728 seen=1556709 exp=255556 elapsed=5s
+      [hb] open=2765036 seen=2811233 exp=452886 elapsed=10s
+      [hb] open=3938138 seen=4056406 exp=644374 elapsed=15s
+      [hb] open=4917531 seen=5130112 exp=803896 elapsed=20s
+[282/790] ac-03476 (len=17) FAILED (858478 exp, 30.7811s)
+      [hb] open=1448153 seen=1503652 exp=231101 elapsed=5s
+      [hb] open=2608424 seen=2759922 exp=422626 elapsed=10s
+      [hb] open=3651614 seen=3828477 exp=585147 elapsed=15s
+      [hb] open=4644269 seen=4901723 exp=740678 elapsed=20s
+[283/790] ac-03479 (len=17) FAILED (794431 exp, 29.8523s)
+      [hb] open=1361987 seen=1424536 exp=215022 elapsed=5s
+      [hb] open=2586237 seen=2708152 exp=398983 elapsed=10s
+      [hb] open=3665723 seen=3847469 exp=565348 elapsed=15s
+      [hb] open=4495047 seen=4751551 exp=695381 elapsed=20s
+[284/790] ac-03495 (len=17) FAILED (744300 exp, 29.6734s)
+      [hb] open=1154885 seen=1237246 exp=177567 elapsed=5s
+      [hb] open=2404247 seen=2494301 exp=369530 elapsed=10s
+      [hb] open=3608742 seen=3808039 exp=560538 elapsed=15s
+      [hb] open=4279587 seen=4550855 exp=664850 elapsed=20s
+[285/790] ac-03498 (len=17) FAILED (701748 exp, 28.6248s)
+      [hb] open=1275122 seen=1326948 exp=202657 elapsed=5s
+      [hb] open=2478313 seen=2497118 exp=394986 elapsed=10s
+      [hb] open=3895504 seen=3977034 exp=619385 elapsed=15s
+      [hb] open=4563465 seen=4711929 exp=725863 elapsed=20s
+[286/790] ac-04650 (len=17) FAILED (753936 exp, 29.1206s)
+      [hb] open=1401488 seen=1517049 exp=213642 elapsed=5s
+      [hb] open=2362208 seen=2575473 exp=356766 elapsed=10s
+      [hb] open=3703357 seen=4045777 exp=563166 elapsed=15s
+      [hb] open=4703627 seen=5118024 exp=714973 elapsed=20s
+[287/790] ac-02468 (len=17) FAILED (755429 exp, 30.7856s)
+      [hb] open=1613305 seen=1552991 exp=252359 elapsed=5s
+      [hb] open=2690605 seen=2519123 exp=422098 elapsed=10s
+      [hb] open=4042268 seen=3855367 exp=639794 elapsed=15s
+      [hb] open=5029289 seen=4928968 exp=817933 elapsed=20s
+[288/790] ac-04559 (len=17) FAILED (862628 exp, 30.4643s)
+      [hb] open=1507662 seen=1521321 exp=256397 elapsed=5s
+      [hb] open=2599630 seen=2716687 exp=435947 elapsed=10s
+      [hb] open=3840782 seen=3995729 exp=638821 elapsed=15s
+      [hb] open=4854256 seen=5071439 exp=796932 elapsed=20s
+[289/790] ac-07938 (len=17) FAILED (851508 exp, 29.98s)
+      [hb] open=1488793 seen=1594821 exp=229342 elapsed=5s
+      [hb] open=2658747 seen=2838438 exp=420907 elapsed=10s
+      [hb] open=3757828 seen=4005525 exp=585710 elapsed=15s
+      [hb] open=4788475 seen=5133719 exp=747597 elapsed=20s
+[290/790] ac-06570 (len=17) FAILED (797613 exp, 30.051s)
+      [hb] open=1459663 seen=1522130 exp=232841 elapsed=5s
+      [hb] open=2698720 seen=2821006 exp=427759 elapsed=10s
+      [hb] open=3795679 seen=3988730 exp=601375 elapsed=15s
+      [hb] open=4735023 seen=5011393 exp=743760 elapsed=20s
+[291/790] ac-03560 (len=17) FAILED (802469 exp, 30.4255s)
+      [hb] open=1260084 seen=1289616 exp=217740 elapsed=5s
+      [hb] open=2441760 seen=2550652 exp=409517 elapsed=10s
+      [hb] open=3588080 seen=3787893 exp=596904 elapsed=15s
+      [hb] open=4293201 seen=4525574 exp=703238 elapsed=20s
+[292/790] ac-02146 (len=17) FAILED (738500 exp, 28.6306s)
+      [hb] open=1174835 seen=1219304 exp=184406 elapsed=5s
+      [hb] open=2419556 seen=2482363 exp=376855 elapsed=10s
+      [hb] open=3741428 seen=3930907 exp=592722 elapsed=15s
+      [hb] open=4478806 seen=4745280 exp=712087 elapsed=20s
+[293/790] ac-03612 (len=17) FAILED (748895 exp, 29.4699s)
+      [hb] open=1287452 seen=1326094 exp=208148 elapsed=5s
+      [hb] open=2344151 seen=2412163 exp=378948 elapsed=10s
+      [hb] open=3654362 seen=3778521 exp=585885 elapsed=15s
+      [hb] open=4538365 seen=4736244 exp=730292 elapsed=20s
+[294/790] ac-09178 (len=17) FAILED (768771 exp, 29.143s)
+      [hb] open=1542801 seen=1587005 exp=239976 elapsed=5s
+      [hb] open=2542790 seen=2621246 exp=401361 elapsed=10s
+      [hb] open=3879613 seen=4079797 exp=615732 elapsed=15s
+      [hb] open=4849676 seen=5141394 exp=776965 elapsed=20s
+[295/790] ac-05618 (len=17) FAILED (831187 exp, 30.973s)
+      [hb] open=1533205 seen=1352171 exp=288033 elapsed=5s
+      [hb] open=2628924 seen=2271097 exp=486669 elapsed=10s
+      [hb] open=3917989 seen=3476322 exp=731291 elapsed=15s
+      [hb] open=4981332 seen=4577657 exp=921525 elapsed=20s
+[296/790] ac-09205 (len=17) FAILED (989127 exp, 30.3743s)
+      [hb] open=1469328 seen=1520432 exp=249833 elapsed=5s
+      [hb] open=2559360 seen=2703046 exp=428703 elapsed=10s
+      [hb] open=3704598 seen=3899452 exp=603633 elapsed=15s
+      [hb] open=4709781 seen=4978840 exp=763593 elapsed=20s
+[297/790] ac-06505 (len=17) FAILED (815492 exp, 30.0139s)
+      [hb] open=1627945 seen=1603566 exp=257363 elapsed=5s
+      [hb] open=3003427 seen=2909736 exp=494680 elapsed=10s
+      [hb] open=4137635 seen=3952914 exp=688187 elapsed=15s
+      [hb] open=5162764 seen=4967494 exp=865544 elapsed=20s
+[298/790] ac-03646 (len=17) FAILED (909441 exp, 29.799s)
+      [hb] open=1408955 seen=1375070 exp=227210 elapsed=5s
+      [hb] open=2730930 seen=2788168 exp=458422 elapsed=10s
+      [hb] open=3876351 seen=3967642 exp=643309 elapsed=15s
+      [hb] open=4627258 seen=4795690 exp=765593 elapsed=20s
+[299/790] ac-02554 (len=17) FAILED (815715 exp, 29.1132s)
+      [hb] open=1179918 seen=1216702 exp=182593 elapsed=5s
+      [hb] open=2437010 seen=2519341 exp=380510 elapsed=10s
+      [hb] open=3786258 seen=3974935 exp=600964 elapsed=15s
+      [hb] open=4517743 seen=4711502 exp=715427 elapsed=20s
+[300/790] ac-06381 (len=17) FAILED (754430 exp, 28.805s)
+      [hb] open=1365462 seen=1281689 exp=213869 elapsed=5s
+      [hb] open=2440869 seen=2385203 exp=414423 elapsed=10s
+      [hb] open=3846480 seen=3722108 exp=655376 elapsed=15s
+      [hb] open=4848980 seen=4665314 exp=834077 elapsed=20s
+[301/790] ac-02255 (len=17) FAILED (882031 exp, 29.8026s)
+      [hb] open=1414845 seen=1484813 exp=222461 elapsed=5s
+      [hb] open=2380779 seen=2514561 exp=369949 elapsed=10s
+      [hb] open=3803335 seen=3898884 exp=588944 elapsed=15s
+      [hb] open=4910157 seen=5048011 exp=764034 elapsed=20s
+[302/790] ac-09217 (len=17) FAILED (811560 exp, 30.3519s)
+      [hb] open=1513444 seen=1557608 exp=232225 elapsed=5s
+      [hb] open=2532968 seen=2584551 exp=390349 elapsed=10s
+      [hb] open=3808691 seen=3939608 exp=595528 elapsed=15s
+      [hb] open=4770230 seen=5009239 exp=755556 elapsed=20s
+[303/790] ac-08444 (len=17) FAILED (812768 exp, 30.9608s)
+      [hb] open=1418720 seen=1528611 exp=215761 elapsed=5s
+      [hb] open=2460758 seen=2649140 exp=379899 elapsed=10s
+      [hb] open=3600020 seen=3865261 exp=557802 elapsed=15s
+      [hb] open=4591516 seen=4922158 exp=704743 elapsed=20s
+[304/790] ac-03765 (len=17) FAILED (746210 exp, 30.0945s)
+      [hb] open=1460120 seen=1491444 exp=241267 elapsed=5s
+      [hb] open=2680087 seen=2690424 exp=439873 elapsed=10s
+      [hb] open=3803262 seen=3869499 exp=618421 elapsed=15s
+      [hb] open=4772367 seen=4945800 exp=778782 elapsed=20s
+[305/790] ac-01384 (len=17) FAILED (830639 exp, 29.9561s)
+      [hb] open=1463397 seen=1494811 exp=231553 elapsed=5s
+      [hb] open=2760735 seen=2825437 exp=440801 elapsed=10s
+      [hb] open=3911766 seen=4093454 exp=624756 elapsed=15s
+      [hb] open=4801638 seen=5060419 exp=776611 elapsed=20s
+[306/790] ac-06284 (len=17) FAILED (824750 exp, 29.8667s)
+      [hb] open=1421342 seen=1526519 exp=213537 elapsed=5s
+      [hb] open=2785779 seen=2930239 exp=417843 elapsed=10s
+      [hb] open=4054569 seen=4194308 exp=608486 elapsed=16s
+[307/790] ac-09242 (len=17) FAILED (796936 exp, 29.9643s)
+      [hb] open=1164113 seen=1202317 exp=183769 elapsed=5s
+      [hb] open=2450629 seen=2530280 exp=383851 elapsed=10s
+      [hb] open=3835202 seen=3963762 exp=603964 elapsed=15s
+      [hb] open=4596339 seen=4750282 exp=724457 elapsed=20s
+[308/790] ac-06257 (len=17) FAILED (767719 exp, 29.1667s)
+      [hb] open=1252504 seen=1301767 exp=197632 elapsed=5s
+      [hb] open=2391135 seen=2447464 exp=379620 elapsed=10s
+      [hb] open=3767701 seen=3923685 exp=606193 elapsed=15s
+      [hb] open=4619726 seen=4864127 exp=747918 elapsed=20s
+[309/790] ac-08140 (len=17) FAILED (777084 exp, 29.491s)
+      [hb] open=1483626 seen=1461692 exp=252551 elapsed=5s
+      [hb] open=2509639 seen=2511397 exp=419907 elapsed=10s
+      [hb] open=3917471 seen=3995890 exp=646788 elapsed=15s
+      [hb] open=4939697 seen=5052904 exp=810712 elapsed=20s
+[310/790] ac-02133 (len=17) FAILED (864566 exp, 31.4652s)
+      [hb] open=1502165 seen=1551654 exp=236608 elapsed=5s
+      [hb] open=2444051 seen=2513805 exp=379831 elapsed=10s
+      [hb] open=3724869 seen=3913897 exp=589288 elapsed=15s
+      [hb] open=4699978 seen=5000810 exp=744295 elapsed=20s
+[311/790] ac-06185 (len=17) FAILED (804694 exp, 30.9248s)
+      [hb] open=1453688 seen=1511751 exp=222801 elapsed=5s
+      [hb] open=2434604 seen=2534453 exp=367666 elapsed=10s
+      [hb] open=3665562 seen=3863327 exp=562943 elapsed=15s
+      [hb] open=4609296 seen=4883925 exp=712159 elapsed=20s
+[312/790] ac-08502 (len=17) FAILED (756669 exp, 30.6885s)
+      [hb] open=1679618 seen=1564502 exp=242015 elapsed=5s
+      [hb] open=2934800 seen=2768738 exp=434143 elapsed=10s
+      [hb] open=4281856 seen=3657252 exp=636918 elapsed=15s
+      [hb] open=5323354 seen=4529252 exp=818627 elapsed=20s
+[313/790] ac-06113 (len=17) FAILED (875752 exp, 30.0954s)
+      [hb] open=1497328 seen=1600418 exp=222370 elapsed=5s
+      [hb] open=2712051 seen=2812083 exp=407096 elapsed=10s
+      [hb] open=3783058 seen=3953935 exp=574680 elapsed=15s
+      [hb] open=4741264 seen=5006101 exp=731859 elapsed=20s
+[314/790] ac-06078 (len=17) FAILED (785874 exp, 30.3314s)
+      [hb] open=1349636 seen=1408826 exp=213635 elapsed=5s
+      [hb] open=2578622 seen=2668113 exp=403786 elapsed=10s
+      [hb] open=3678723 seen=3833891 exp=579715 elapsed=15s
+      [hb] open=4481957 seen=4673489 exp=711227 elapsed=20s
+[315/790] ac-07785 (len=17) FAILED (754655 exp, 29.483s)
+      [hb] open=1274509 seen=1263186 exp=200533 elapsed=5s
+      [hb] open=2576385 seen=2587291 exp=415513 elapsed=10s
+      [hb] open=3846562 seen=3904247 exp=626111 elapsed=15s
+      [hb] open=4577721 seen=4685292 exp=747244 elapsed=20s
+[316/790] ac-03950 (len=17) FAILED (793226 exp, 29.0087s)
+      [hb] open=1178240 seen=1244530 exp=178183 elapsed=5s
+      [hb] open=2404202 seen=2562917 exp=366600 elapsed=10s
+      [hb] open=3799581 seen=3999180 exp=587518 elapsed=15s
+      [hb] open=4605970 seen=4855310 exp=711592 elapsed=20s
+[317/790] ac-05427 (len=17) FAILED (748238 exp, 29.5135s)
+      [hb] open=1310622 seen=1372697 exp=199346 elapsed=5s
+      [hb] open=2360409 seen=2442156 exp=361463 elapsed=10s
+      [hb] open=3699843 seen=3868370 exp=574876 elapsed=15s
+      [hb] open=4637094 seen=4888574 exp=714519 elapsed=20s
+[318/790] ac-03455 (len=17) FAILED (757011 exp, 29.6464s)
+      [hb] open=1477446 seen=1442871 exp=312473 elapsed=5s
+      [hb] open=2543920 seen=2423154 exp=494546 elapsed=10s
+      [hb] open=3978549 seen=3610508 exp=727073 elapsed=15s
+      [hb] open=5109694 seen=4642376 exp=916042 elapsed=20s
+[319/790] ac-09010 (len=18) FAILED (964247 exp, 30.3471s)
+      [hb] open=1390815 seen=1389777 exp=229399 elapsed=5s
+      [hb] open=2357759 seen=2397198 exp=388118 elapsed=10s
+      [hb] open=3360223 seen=3498492 exp=557701 elapsed=15s
+      [hb] open=4145330 seen=4298617 exp=689507 elapsed=20s
+[320/790] ac-00053 (len=18) FAILED (723938 exp, 29.7194s)
+      [hb] open=1416475 seen=1493784 exp=221456 elapsed=5s
+      [hb] open=2479725 seen=2641313 exp=384742 elapsed=10s
+      [hb] open=3438910 seen=3631259 exp=535936 elapsed=15s
+      [hb] open=4226149 seen=4432140 exp=664797 elapsed=20s
+[321/790] ac-09073 (len=18) FAILED (697237 exp, 29.3005s)
+      [hb] open=1439537 seen=1354777 exp=235927 elapsed=5s
+      [hb] open=2759663 seen=2759773 exp=460944 elapsed=10s
+      [hb] open=3974187 seen=4043140 exp=658958 elapsed=15s
+      [hb] open=4799143 seen=4938070 exp=798854 elapsed=20s
+[322/790] ac-09169 (len=18) FAILED (849850 exp, 29.3486s)
+      [hb] open=1232708 seen=1148695 exp=206652 elapsed=5s
+      [hb] open=2600592 seen=2565870 exp=450534 elapsed=10s
+      [hb] open=4037005 seen=3946533 exp=691468 elapsed=15s
+      [hb] open=4827382 seen=4631658 exp=820783 elapsed=20s
+[323/790] ac-00116 (len=18) FAILED (883948 exp, 29.4081s)
+      [hb] open=1157342 seen=1171465 exp=188282 elapsed=5s
+      [hb] open=2170826 seen=2270225 exp=355510 elapsed=10s
+      [hb] open=3333130 seen=3499971 exp=547386 elapsed=15s
+      [hb] open=4046640 seen=4194312 exp=661259 elapsed=20s
+[324/790] ac-09191 (len=18) FAILED (680303 exp, 28.614s)
+      [hb] open=1528858 seen=1454108 exp=265930 elapsed=5s
+      [hb] open=2593192 seen=2315959 exp=445542 elapsed=10s
+      [hb] open=3991018 seen=3810131 exp=680937 elapsed=15s
+      [hb] open=5003658 seen=4875187 exp=860552 elapsed=20s
+[325/790] ac-09194 (len=18) FAILED (926482 exp, 30.28s)
+      [hb] open=1530615 seen=1608166 exp=234869 elapsed=5s
+      [hb] open=2575961 seen=2757343 exp=392039 elapsed=10s
+      [hb] open=3876890 seen=4096814 exp=587563 elapsed=15s
+      [hb] open=4927310 seen=5227354 exp=752275 elapsed=20s
+[326/790] ac-09202 (len=18) FAILED (789732 exp, 31.8261s)
+      [hb] open=1420238 seen=1342282 exp=224358 elapsed=5s
+      [hb] open=2476748 seen=2432010 exp=392702 elapsed=10s
+      [hb] open=3709619 seen=3759422 exp=604722 elapsed=15s
+      [hb] open=4664363 seen=4729971 exp=763330 elapsed=20s
+[327/790] ac-09368 (len=18) FAILED (805568 exp, 30.0858s)
+      [hb] open=1482687 seen=1530410 exp=241858 elapsed=5s
+      [hb] open=2676047 seen=2785413 exp=422970 elapsed=10s
+      [hb] open=3810039 seen=3972812 exp=604660 elapsed=15s
+      [hb] open=4862875 seen=5042420 exp=764925 elapsed=20s
+[328/790] ac-09397 (len=18) FAILED (822810 exp, 30.466s)
+      [hb] open=1532153 seen=1392487 exp=242383 elapsed=5s
+      [hb] open=2937812 seen=2588931 exp=467152 elapsed=10s
+      [hb] open=4086892 seen=3574240 exp=656404 elapsed=15s
+      [hb] open=5141964 seen=4508777 exp=827205 elapsed=20s
+[329/790] ac-00273 (len=18) FAILED (870837 exp, 29.346s)
+      [hb] open=1402734 seen=1345764 exp=247294 elapsed=5s
+      [hb] open=2742182 seen=2707960 exp=490576 elapsed=10s
+      [hb] open=4019536 seen=4018531 exp=702082 elapsed=15s
+      [hb] open=4849653 seen=4909824 exp=842044 elapsed=20s
+[330/790] ac-09440 (len=18) FAILED (897688 exp, 29.2699s)
+      [hb] open=1200744 seen=1203564 exp=182004 elapsed=5s
+      [hb] open=2482328 seen=2333701 exp=395471 elapsed=10s
+      [hb] open=3854816 seen=3776493 exp=643339 elapsed=15s
+      [hb] open=4569842 seen=4531121 exp=754566 elapsed=20s
+[331/790] ac-09503 (len=18) FAILED (796280 exp, 29.1179s)
+      [hb] open=1279451 seen=1315055 exp=192579 elapsed=5s
+      [hb] open=2392567 seen=2253708 exp=369580 elapsed=10s
+      [hb] open=3767518 seen=3660679 exp=612071 elapsed=15s
+      [hb] open=4611557 seen=4553816 exp=746063 elapsed=20s
+[332/790] ac-09542 (len=18) FAILED (785123 exp, 29.5927s)
+      [hb] open=1390952 seen=1232658 exp=240158 elapsed=5s
+      [hb] open=2368665 seen=2240881 exp=411507 elapsed=10s
+      [hb] open=3754971 seen=3723842 exp=666410 elapsed=15s
+      [hb] open=4751487 seen=4765813 exp=831730 elapsed=20s
+[333/790] ac-09554 (len=18) FAILED (884616 exp, 29.9739s)
+      [hb] open=1387028 seen=1462446 exp=221033 elapsed=5s
+      [hb] open=2337512 seen=2500543 exp=368057 elapsed=10s
+      [hb] open=3384331 seen=3614145 exp=534624 elapsed=15s
+      [hb] open=4160704 seen=4427348 exp=654253 elapsed=20s
+[334/790] ac-09563 (len=18) FAILED (690306 exp, 29.7774s)
+      [hb] open=1649118 seen=1725619 exp=237417 elapsed=5s
+      [hb] open=2974122 seen=3112705 exp=431903 elapsed=10s
+      [hb] open=4001480 seen=4194312 exp=582053 elapsed=15s
+      [hb] open=5395446 seen=5643694 exp=792151 elapsed=20s
+[335/790] ac-09596 (len=18) FAILED (799729 exp, 31.1375s)
+      [hb] open=1360110 seen=1418360 exp=217027 elapsed=5s
+      [hb] open=2407215 seen=2504064 exp=388065 elapsed=10s
+      [hb] open=3366137 seen=3442420 exp=541530 elapsed=15s
+      [hb] open=4101460 seen=4208423 exp=658942 elapsed=20s
+[336/790] ac-09661 (len=18) FAILED (692526 exp, 28.8965s)
+      [hb] open=1386294 seen=1277351 exp=237003 elapsed=5s
+      [hb] open=2761865 seen=2621862 exp=473710 elapsed=10s
+      [hb] open=4171523 seen=3524984 exp=687032 elapsed=15s
+      [hb] open=5318693 seen=4194309 exp=892971 elapsed=20s
+[337/790] ac-00474 (len=18) FAILED (895447 exp, 28.5004s)
+      [hb] open=1074926 seen=1146939 exp=184044 elapsed=5s
+      [hb] open=2181749 seen=2327081 exp=352535 elapsed=10s
+      [hb] open=3341095 seen=3544175 exp=530853 elapsed=15s
+      [hb] open=3956843 seen=4194310 exp=626703 elapsed=20s
+[338/790] ac-09752 (len=18) FAILED (650129 exp, 28.6063s)
+      [hb] open=1440335 seen=1332515 exp=238682 elapsed=5s
+      [hb] open=2493745 seen=2418317 exp=414888 elapsed=10s
+      [hb] open=3891572 seen=3929993 exp=651022 elapsed=15s
+      [hb] open=4827760 seen=4915070 exp=806582 elapsed=20s
+[339/790] ac-09864 (len=18) FAILED (852118 exp, 30.1821s)
+      [hb] open=1367366 seen=1392434 exp=227549 elapsed=5s
+      [hb] open=2272371 seen=2289095 exp=375152 elapsed=10s
+      [hb] open=3369294 seen=3510240 exp=566609 elapsed=15s
+      [hb] open=4131247 seen=4293659 exp=696418 elapsed=20s
+[340/790] ac-09879 (len=18) FAILED (732713 exp, 29.3123s)
+      [hb] open=1454055 seen=1503947 exp=226618 elapsed=5s
+      [hb] open=2630255 seen=2702233 exp=405524 elapsed=10s
+      [hb] open=3786122 seen=3926282 exp=585415 elapsed=15s
+      [hb] open=4729795 seen=4908034 exp=738401 elapsed=20s
+[341/790] ac-09914 (len=18) FAILED (792214 exp, 29.9923s)
+      [hb] open=1568536 seen=1440335 exp=265230 elapsed=5s
+      [hb] open=2967699 seen=2666756 exp=505773 elapsed=10s
+      [hb] open=4089885 seen=3732326 exp=710916 elapsed=15s
+      [hb] open=5139666 seen=4796784 exp=912748 elapsed=20s
+[342/790] ac-00675 (len=18) FAILED (954870 exp, 29.5169s)
+      [hb] open=1384608 seen=1314696 exp=264497 elapsed=5s
+      [hb] open=2716117 seen=2641420 exp=500946 elapsed=10s
+      [hb] open=3993631 seen=3957551 exp=712747 elapsed=15s
+      [hb] open=4829537 seen=4785307 exp=857351 elapsed=20s
+[343/790] ac-10105 (len=18) FAILED (913652 exp, 29.3513s)
+      [hb] open=1108543 seen=1082496 exp=182087 elapsed=5s
+      [hb] open=2248912 seen=2258087 exp=375918 elapsed=10s
+      [hb] open=3433381 seen=3479954 exp=578324 elapsed=15s
+      [hb] open=4152604 seen=4194306 exp=706203 elapsed=20s
+[344/790] ac-00861 (len=18) FAILED (715610 exp, 28.0094s)
+      [hb] open=1431453 seen=1310688 exp=240855 elapsed=5s
+      [hb] open=2484563 seen=2361028 exp=421445 elapsed=10s
+      [hb] open=3876189 seen=3830567 exp=673789 elapsed=15s
+      [hb] open=4848861 seen=4671757 exp=830200 elapsed=20s
+[345/790] ac-00922 (len=18) FAILED (879161 exp, 29.5761s)
+      [hb] open=1252951 seen=1167079 exp=191384 elapsed=5s
+      [hb] open=2346844 seen=2310567 exp=369279 elapsed=10s
+      [hb] open=3612828 seen=3695644 exp=598022 elapsed=15s
+      [hb] open=4612508 seen=4744987 exp=759152 elapsed=20s
+[346/790] ac-00973 (len=18) FAILED (810029 exp, 29.791s)
+      [hb] open=1387652 seen=1450859 exp=225127 elapsed=5s
+      [hb] open=2387544 seen=2506853 exp=389379 elapsed=10s
+      [hb] open=3420930 seen=3598904 exp=556593 elapsed=15s
+      [hb] open=4164905 seen=4409068 exp=681387 elapsed=20s
+[347/790] ac-00998 (len=18) FAILED (711486 exp, 29.3582s)
+      [hb] open=1386702 seen=1398803 exp=229918 elapsed=5s
+      [hb] open=2467091 seen=2522064 exp=414165 elapsed=10s
+      [hb] open=3443227 seen=3533976 exp=573220 elapsed=15s
+      [hb] open=4133986 seen=4256814 exp=684080 elapsed=20s
+[348/790] ac-01016 (len=18) FAILED (721363 exp, 29.696s)
+      [hb] open=1434792 seen=1498353 exp=209014 elapsed=5s
+      [hb] open=2803997 seen=2929382 exp=409801 elapsed=10s
+      [hb] open=4015769 seen=4194309 exp=587801 elapsed=16s
+[349/790] ac-01223 (len=18) FAILED (769539 exp, 29.772s)
+      [hb] open=1138465 seen=1082625 exp=177557 elapsed=5s
+      [hb] open=2362207 seen=2346550 exp=374434 elapsed=10s
+      [hb] open=3648134 seen=3765061 exp=602185 elapsed=15s
+      [hb] open=4349601 seen=4510293 exp=707671 elapsed=20s
+[350/790] ac-01327 (len=18) FAILED (743053 exp, 28.3859s)
+      [hb] open=1390330 seen=1389813 exp=233144 elapsed=5s
+      [hb] open=2498202 seen=2568831 exp=413204 elapsed=10s
+      [hb] open=3882340 seen=4031181 exp=634841 elapsed=15s
+      [hb] open=4846983 seen=5054067 exp=789700 elapsed=20s
+[351/790] ac-01434 (len=18) FAILED (839613 exp, 30.5852s)
+      [hb] open=1477448 seen=1415111 exp=229894 elapsed=5s
+      [hb] open=2480227 seen=2488487 exp=391236 elapsed=10s
+      [hb] open=3862268 seen=3987527 exp=628827 elapsed=15s
+      [hb] open=4824450 seen=5006259 exp=789407 elapsed=20s
+[352/790] ac-01466 (len=18) FAILED (833680 exp, 30.7732s)
+      [hb] open=1356405 seen=1432389 exp=207725 elapsed=5s
+      [hb] open=2179592 seen=2314675 exp=338433 elapsed=10s
+      [hb] open=3206252 seen=3352537 exp=510211 elapsed=15s
+      [hb] open=3996617 seen=4194307 exp=630842 elapsed=20s
+[353/790] ac-01692 (len=18) FAILED (657181 exp, 29.3531s)
+      [hb] open=1336248 seen=1440449 exp=210684 elapsed=5s
+      [hb] open=2351834 seen=2511096 exp=367998 elapsed=10s
+      [hb] open=3330563 seen=3566758 exp=520754 elapsed=15s
+      [hb] open=4082003 seen=4379281 exp=637620 elapsed=20s
+[354/790] ac-01711 (len=18) FAILED (669238 exp, 29.2143s)
+      [hb] open=1451424 seen=1487334 exp=228198 elapsed=5s
+      [hb] open=2759499 seen=2856682 exp=429755 elapsed=10s
+      [hb] open=3905894 seen=4100987 exp=601909 elapsed=15s
+      [hb] open=4767951 seen=5046905 exp=742710 elapsed=20s
+[355/790] ac-01737 (len=18) FAILED (790208 exp, 29.9741s)
+      [hb] open=1402398 seen=1314252 exp=217385 elapsed=5s
+      [hb] open=2735652 seen=2644139 exp=451051 elapsed=10s
+      [hb] open=4008807 seen=3998481 exp=669535 elapsed=15s
+      [hb] open=4837181 seen=4750649 exp=810877 elapsed=20s
+[356/790] ac-01798 (len=18) FAILED (867802 exp, 30.264s)
+      [hb] open=1198527 seen=1195829 exp=189892 elapsed=5s
+      [hb] open=2518724 seen=2446870 exp=413794 elapsed=10s
+      [hb] open=3909428 seen=3749328 exp=649348 elapsed=15s
+      [hb] open=4623062 seen=4490228 exp=762159 elapsed=20s
+[357/790] ac-01878 (len=18) FAILED (814837 exp, 28.5569s)
+      [hb] open=1229678 seen=1261650 exp=195809 elapsed=5s
+      [hb] open=2178816 seen=2285938 exp=364434 elapsed=10s
+      [hb] open=3342666 seen=3529404 exp=561788 elapsed=15s
+      [hb] open=4038613 seen=4254139 exp=666449 elapsed=20s
+[358/790] ac-02029 (len=18) FAILED (695195 exp, 28.8983s)
+      [hb] open=1618811 seen=1481147 exp=258584 elapsed=5s
+      [hb] open=2652202 seen=2530468 exp=447110 elapsed=10s
+      [hb] open=4059554 seen=3725063 exp=680379 elapsed=15s
+      [hb] open=5171652 seen=4731425 exp=896672 elapsed=20s
+[359/790] ac-02055 (len=18) FAILED (947360 exp, 30.5187s)
+      [hb] open=1520071 seen=1564573 exp=234591 elapsed=5s
+      [hb] open=2624371 seen=2726172 exp=402788 elapsed=10s
+      [hb] open=3870108 seen=4055468 exp=595962 elapsed=15s
+      [hb] open=4826604 seen=5085572 exp=747130 elapsed=20s
+[360/790] ac-02293 (len=18) FAILED (795682 exp, 30.9967s)
+      [hb] open=1538894 seen=1418558 exp=251513 elapsed=5s
+      [hb] open=2738410 seen=2561039 exp=439678 elapsed=10s
+      [hb] open=4101987 seen=3381899 exp=639554 elapsed=15s
+      [hb] open=5171782 seen=4254894 exp=812939 elapsed=20s
+[361/790] ac-02401 (len=18) FAILED (857124 exp, 29.487s)
+      [hb] open=1547398 seen=1579713 exp=241879 elapsed=5s
+      [hb] open=2882881 seen=2743308 exp=469596 elapsed=10s
+      [hb] open=4000876 seen=3821393 exp=656323 elapsed=15s
+      [hb] open=4941194 seen=4792232 exp=819552 elapsed=20s
+[362/790] ac-02412 (len=18) FAILED (873991 exp, 29.8184s)
+      [hb] open=1268752 seen=1207705 exp=206742 elapsed=5s
+      [hb] open=2569949 seen=2418047 exp=434945 elapsed=10s
+      [hb] open=3764390 seen=3697863 exp=645061 elapsed=15s
+      [hb] open=4554212 seen=4527944 exp=771773 elapsed=20s
+[363/790] ac-02427 (len=18) FAILED (823484 exp, 28.7009s)
+      [hb] open=1201041 seen=1175145 exp=197048 elapsed=5s
+      [hb] open=2520365 seen=2380849 exp=430218 elapsed=10s
+      [hb] open=3956370 seen=3854245 exp=669949 elapsed=15s
+      [hb] open=4708152 seen=4672582 exp=796793 elapsed=20s
+[364/790] ac-02534 (len=18) FAILED (836213 exp, 28.9011s)
+      [hb] open=1338972 seen=1282931 exp=244515 elapsed=5s
+      [hb] open=2453448 seen=2308438 exp=432084 elapsed=10s
+      [hb] open=3945281 seen=3441657 exp=678940 elapsed=15s
+      [hb] open=4838714 seen=4383690 exp=841890 elapsed=20s
+[365/790] ac-02571 (len=18) FAILED (891520 exp, 29.4455s)
+      [hb] open=1354872 seen=1403390 exp=220512 elapsed=5s
+      [hb] open=2221742 seen=2307095 exp=364574 elapsed=10s
+      [hb] open=3325248 seen=3510375 exp=547531 elapsed=15s
+      [hb] open=4064473 seen=4307284 exp=666301 elapsed=20s
+[366/790] ac-02667 (len=18) FAILED (697104 exp, 29.4779s)
+      [hb] open=1407078 seen=1422722 exp=240970 elapsed=5s
+      [hb] open=2244285 seen=2329192 exp=379879 elapsed=10s
+      [hb] open=3046819 seen=3136827 exp=509816 elapsed=15s
+[367/790] ac-02679 (len=18) FAILED (681776 exp, 29.3597s)
+      [hb] open=1418475 seen=1493571 exp=213751 elapsed=5s
+      [hb] open=2515114 seen=2669437 exp=393089 elapsed=10s
+      [hb] open=3490943 seen=3659243 exp=550596 elapsed=15s
+      [hb] open=4230820 seen=4429976 exp=661855 elapsed=20s
+[368/790] ac-02683 (len=18) FAILED (696018 exp, 29.443s)
+      [hb] open=1312365 seen=1192902 exp=200819 elapsed=5s
+      [hb] open=2587513 seen=2507655 exp=428276 elapsed=10s
+      [hb] open=3865463 seen=3656746 exp=650269 elapsed=15s
+      [hb] open=4619734 seen=4341510 exp=779254 elapsed=20s
+[369/790] ac-02688 (len=18) FAILED (824918 exp, 29.2002s)
+      [hb] open=1300974 seen=991259 exp=204978 elapsed=5s
+      [hb] open=2506000 seen=2107147 exp=448147 elapsed=10s
+      [hb] open=4004521 seen=3381228 exp=698116 elapsed=15s
+      [hb] open=4867564 seen=4194305 exp=861677 elapsed=20s
+[370/790] ac-02710 (len=18) FAILED (900950 exp, 28.2903s)
+      [hb] open=1437475 seen=1347362 exp=247189 elapsed=5s
+      [hb] open=2489105 seen=2418520 exp=428200 elapsed=10s
+      [hb] open=3970320 seen=3704696 exp=692578 elapsed=15s
+      [hb] open=4937782 seen=4652368 exp=866045 elapsed=20s
+[371/790] ac-02779 (len=18) FAILED (914356 exp, 29.4757s)
+      [hb] open=1552404 seen=1440161 exp=251325 elapsed=5s
+      [hb] open=2603307 seen=2528639 exp=432872 elapsed=10s
+      [hb] open=3904123 seen=3932561 exp=657726 elapsed=15s
+      [hb] open=4904080 seen=4937474 exp=825456 elapsed=20s
+[372/790] ac-02792 (len=18) FAILED (885897 exp, 30.0835s)
+      [hb] open=1506932 seen=1543971 exp=237004 elapsed=5s
+      [hb] open=2715011 seen=2576777 exp=436682 elapsed=10s
+      [hb] open=3868646 seen=3753290 exp=636147 elapsed=15s
+      [hb] open=4834880 seen=4744372 exp=795645 elapsed=20s
+[373/790] ac-02901 (len=18) FAILED (843720 exp, 30.7507s)
+      [hb] open=1498593 seen=1532829 exp=228186 elapsed=5s
+      [hb] open=2757907 seen=2609087 exp=433789 elapsed=10s
+      [hb] open=3832828 seen=3686393 exp=625912 elapsed=15s
+      [hb] open=4725795 seen=4555234 exp=767936 elapsed=20s
+[374/790] ac-02917 (len=18) FAILED (806755 exp, 29.6121s)
+      [hb] open=1317294 seen=1184375 exp=265297 elapsed=5s
+      [hb] open=2505809 seen=2378305 exp=467969 elapsed=10s
+      [hb] open=3545888 seen=3499124 exp=658096 elapsed=15s
+      [hb] open=4314538 seen=4300504 exp=801126 elapsed=20s
+[375/790] ac-02946 (len=18) FAILED (846236 exp, 28.186s)
+      [hb] open=1168411 seen=1142712 exp=177988 elapsed=5s
+      [hb] open=2445329 seen=2318051 exp=395389 elapsed=10s
+      [hb] open=3781288 seen=3769001 exp=651034 elapsed=15s
+      [hb] open=4442411 seen=4382809 exp=760144 elapsed=20s
+[376/790] ac-03428 (len=18) FAILED (799519 exp, 28.1876s)
+      [hb] open=1286896 seen=1372646 exp=198369 elapsed=5s
+      [hb] open=2227867 seen=2411861 exp=340026 elapsed=10s
+      [hb] open=3397361 seen=3684780 exp=523387 elapsed=15s
+      [hb] open=4145681 seen=4451270 exp=638473 elapsed=20s
+[377/790] ac-03435 (len=18) FAILED (668420 exp, 29.9289s)
+      [hb] open=1330655 seen=1425217 exp=220529 elapsed=5s
+      [hb] open=2202155 seen=2354260 exp=355994 elapsed=10s
+      [hb] open=3307719 seen=3569126 exp=525498 elapsed=15s
+      [hb] open=4045650 seen=4386474 exp=644911 elapsed=20s
+[378/790] ac-03506 (len=18) FAILED (675252 exp, 29.4954s)
+      [hb] open=1411828 seen=1484411 exp=213988 elapsed=5s
+      [hb] open=2389901 seen=2524722 exp=376319 elapsed=10s
+      [hb] open=3408579 seen=3568406 exp=541643 elapsed=15s
+      [hb] open=4184775 seen=4389015 exp=659724 elapsed=20s
+[379/790] ac-03989 (len=18) FAILED (693017 exp, 29.5677s)
+      [hb] open=1570760 seen=1475295 exp=269871 elapsed=5s
+      [hb] open=2918752 seen=2809279 exp=506463 elapsed=10s
+      [hb] open=4062653 seen=3927426 exp=694292 elapsed=15s
+      [hb] open=5036364 seen=4972095 exp=860960 elapsed=20s
+[380/790] ac-04145 (len=18) FAILED (916972 exp, 30.0698s)
+      [hb] open=1222821 seen=1263490 exp=189739 elapsed=5s
+      [hb] open=2317290 seen=2437887 exp=376237 elapsed=10s
+      [hb] open=3335133 seen=3458253 exp=540079 elapsed=15s
+      [hb] open=4072065 seen=4194305 exp=660269 elapsed=20s
+[381/790] ac-04146 (len=18) FAILED (674614 exp, 28.5417s)
+      [hb] open=1079607 seen=1118089 exp=159205 elapsed=5s
+      [hb] open=2171714 seen=2209878 exp=337004 elapsed=10s
+      [hb] open=3312196 seen=3260944 exp=538353 elapsed=15s
+      [hb] open=4174683 seen=4069051 exp=675600 elapsed=20s
+[382/790] ac-04335 (len=18) FAILED (696983 exp, 29.8952s)
+      [hb] open=1224445 seen=1219972 exp=187844 elapsed=5s
+      [hb] open=2233678 seen=2266502 exp=353368 elapsed=10s
+      [hb] open=3408664 seen=3383209 exp=567446 elapsed=15s
+      [hb] open=4240833 seen=4194309 exp=699276 elapsed=20s
+[383/790] ac-04399 (len=18) FAILED (708157 exp, 29.1093s)
+      [hb] open=1519283 seen=1539407 exp=239734 elapsed=5s
+      [hb] open=2523429 seen=2490662 exp=407105 elapsed=10s
+      [hb] open=3949082 seen=3878909 exp=647339 elapsed=15s
+      [hb] open=4925292 seen=4909100 exp=812153 elapsed=20s
+[384/790] ac-04593 (len=18) FAILED (857276 exp, 30.323s)
+      [hb] open=1550521 seen=1430385 exp=240168 elapsed=5s
+      [hb] open=2595891 seen=2515671 exp=422611 elapsed=10s
+      [hb] open=3861615 seen=3836188 exp=649123 elapsed=15s
+      [hb] open=4917774 seen=4725846 exp=819452 elapsed=20s
+[385/790] ac-04608 (len=18) FAILED (872157 exp, 30.6536s)
+      [hb] open=1537288 seen=1372067 exp=273148 elapsed=5s
+      [hb] open=2767789 seen=2399135 exp=477733 elapsed=10s
+      [hb] open=4002008 seen=3431788 exp=694940 elapsed=15s
+      [hb] open=5347992 seen=4194307 exp=909414 elapsed=20s
+[386/790] ac-04621 (len=18) FAILED (930254 exp, 29.4126s)
+      [hb] open=1405341 seen=1445727 exp=239243 elapsed=5s
+      [hb] open=2510473 seen=2605859 exp=419293 elapsed=10s
+      [hb] open=3464875 seen=3640296 exp=571054 elapsed=15s
+      [hb] open=4193571 seen=4445709 exp=688233 elapsed=20s
+[387/790] ac-04679 (len=18) FAILED (723794 exp, 29.0808s)
+      [hb] open=1419590 seen=1247970 exp=241718 elapsed=5s
+      [hb] open=2736854 seen=2618573 exp=489806 elapsed=10s
+      [hb] open=4056132 seen=3793145 exp=720912 elapsed=15s
+      [hb] open=4893688 seen=4554605 exp=871370 elapsed=20s
+[388/790] ac-04764 (len=18) FAILED (936646 exp, 28.8257s)
+      [hb] open=1173212 seen=1179667 exp=189028 elapsed=5s
+      [hb] open=2456562 seen=2452869 exp=396214 elapsed=10s
+      [hb] open=3875742 seen=3949097 exp=631345 elapsed=15s
+      [hb] open=4655428 seen=4774558 exp=762393 elapsed=20s
+[389/790] ac-04808 (len=18) FAILED (793632 exp, 29.4s)
+      [hb] open=1252737 seen=1277169 exp=206556 elapsed=5s
+      [hb] open=2174217 seen=2283216 exp=357146 elapsed=10s
+      [hb] open=3334233 seen=3486165 exp=542533 elapsed=15s
+      [hb] open=4042822 seen=4239734 exp=663239 elapsed=20s
+[390/790] ac-04822 (len=18) FAILED (690328 exp, 29.3027s)
+      [hb] open=1554734 seen=1570235 exp=248973 elapsed=5s
+      [hb] open=2627146 seen=2558290 exp=419034 elapsed=10s
+      [hb] open=3998206 seen=3949072 exp=643327 elapsed=15s
+      [hb] open=5018745 seen=5009643 exp=805480 elapsed=20s
+[391/790] ac-04850 (len=18) FAILED (862088 exp, 31.0035s)
+      [hb] open=1416347 seen=1474603 exp=221760 elapsed=5s
+      [hb] open=2362208 seen=2464955 exp=370347 elapsed=10s
+      [hb] open=3446273 seen=3588546 exp=546778 elapsed=15s
+      [hb] open=4215748 seen=4377805 exp=676080 elapsed=20s
+[392/790] ac-04911 (len=18) FAILED (706043 exp, 29.6589s)
+      [hb] open=1390136 seen=1462613 exp=222578 elapsed=5s
+      [hb] open=2419810 seen=2528323 exp=373412 elapsed=10s
+      [hb] open=3384606 seen=3577576 exp=518218 elapsed=15s
+      [hb] open=4115651 seen=4387550 exp=628686 elapsed=20s
+[393/790] ac-05030 (len=18) FAILED (657699 exp, 29.633s)
+      [hb] open=1468953 seen=1389340 exp=235927 elapsed=5s
+      [hb] open=2777922 seen=2747852 exp=462818 elapsed=10s
+      [hb] open=3941029 seen=4023276 exp=655705 elapsed=15s
+      [hb] open=4807035 seen=4851708 exp=795327 elapsed=20s
+[394/790] ac-05080 (len=18) FAILED (847247 exp, 30.0476s)
+      [hb] open=1283490 seen=1287206 exp=196046 elapsed=5s
+      [hb] open=2581169 seen=2581392 exp=415741 elapsed=10s
+      [hb] open=3880105 seen=3811822 exp=630221 elapsed=15s
+      [hb] open=4654752 seen=4599215 exp=758681 elapsed=20s
+[395/790] ac-05108 (len=18) FAILED (804434 exp, 28.6785s)
+      [hb] open=1258378 seen=1258317 exp=190961 elapsed=5s
+      [hb] open=2518700 seen=2454874 exp=405466 elapsed=10s
+      [hb] open=3978348 seen=3849531 exp=654735 elapsed=15s
+      [hb] open=4789747 seen=4632959 exp=795620 elapsed=20s
+[396/790] ac-01336 (len=18) FAILED (834807 exp, 29.318s)
+      [hb] open=1262207 seen=1337790 exp=195750 elapsed=5s
+      [hb] open=2166369 seen=2294999 exp=341545 elapsed=10s
+      [hb] open=3332923 seen=3457206 exp=530336 elapsed=15s
+      [hb] open=4054657 seen=4215425 exp=641693 elapsed=20s
+[397/790] ac-05220 (len=18) FAILED (668981 exp, 29.2084s)
+      [hb] open=1425919 seen=1456749 exp=221941 elapsed=5s
+      [hb] open=2360235 seen=2416983 exp=374422 elapsed=10s
+      [hb] open=3403355 seen=3542083 exp=557506 elapsed=15s
+      [hb] open=4170429 seen=4366042 exp=681662 elapsed=20s
+[398/790] ac-05221 (len=18) FAILED (717447 exp, 29.9734s)
+      [hb] open=1476369 seen=1529438 exp=231516 elapsed=5s
+      [hb] open=2621565 seen=2722651 exp=405143 elapsed=10s
+      [hb] open=3757630 seen=3967596 exp=585437 elapsed=15s
+      [hb] open=4739279 seen=5036238 exp=736641 elapsed=20s
+[399/790] ac-05286 (len=18) FAILED (791920 exp, 30.4282s)
+      [hb] open=1369209 seen=1443539 exp=217319 elapsed=5s
+      [hb] open=2414421 seen=2522316 exp=370782 elapsed=10s
+      [hb] open=3374707 seen=3562806 exp=514206 elapsed=15s
+      [hb] open=4113840 seen=4378461 exp=624613 elapsed=20s
+[400/790] ac-05341 (len=18) FAILED (657178 exp, 29.1804s)
+      [hb] open=1414083 seen=1317982 exp=226203 elapsed=5s
+      [hb] open=2717096 seen=2657672 exp=450303 elapsed=10s
+      [hb] open=3961282 seen=3982426 exp=662450 elapsed=15s
+      [hb] open=4767904 seen=4831672 exp=795731 elapsed=20s
+[401/790] ac-05675 (len=18) FAILED (838425 exp, 29.057s)
+      [hb] open=1191398 seen=1190597 exp=191318 elapsed=5s
+      [hb] open=2544415 seen=2490540 exp=417613 elapsed=10s
+      [hb] open=3943172 seen=3971049 exp=656563 elapsed=15s
+      [hb] open=4707442 seen=4650430 exp=782015 elapsed=20s
+[402/790] ac-05760 (len=18) FAILED (818023 exp, 29.174s)
+      [hb] open=1308876 seen=1172670 exp=221058 elapsed=5s
+      [hb] open=2424131 seen=2275321 exp=421456 elapsed=10s
+      [hb] open=3801750 seen=3622463 exp=678475 elapsed=15s
+      [hb] open=4656678 seen=4527206 exp=818746 elapsed=20s
+[403/790] ac-05781 (len=18) FAILED (858149 exp, 29.1247s)
+      [hb] open=1390922 seen=1461646 exp=231375 elapsed=5s
+      [hb] open=2284139 seen=2395698 exp=375620 elapsed=10s
+      [hb] open=3436678 seen=3651172 exp=557692 elapsed=15s
+      [hb] open=4218028 seen=4501228 exp=680296 elapsed=20s
+[404/790] ac-05822 (len=18) FAILED (717675 exp, 29.6979s)
+      [hb] open=1407985 seen=1516309 exp=213465 elapsed=5s
+      [hb] open=2366377 seen=2528904 exp=367953 elapsed=10s
+      [hb] open=3428552 seen=3596609 exp=530386 elapsed=15s
+      [hb] open=4198133 seen=4430610 exp=647523 elapsed=20s
+[405/790] ac-05850 (len=18) FAILED (676339 exp, 29.7583s)
+      [hb] open=1540215 seen=1573933 exp=240036 elapsed=5s
+      [hb] open=2798504 seen=2906189 exp=435671 elapsed=10s
+      [hb] open=3906389 seen=4070232 exp=603119 elapsed=15s
+      [hb] open=4852621 seen=5081834 exp=747685 elapsed=20s
+[406/790] ac-05976 (len=18) FAILED (794086 exp, 30.4561s)
+      [hb] open=1291747 seen=1352932 exp=201407 elapsed=5s
+      [hb] open=2375263 seen=2510318 exp=368860 elapsed=10s
+      [hb] open=3349402 seen=3544487 exp=526110 elapsed=15s
+      [hb] open=4018860 seen=4252988 exp=630534 elapsed=20s
+[407/790] ac-06008 (len=18) FAILED (668713 exp, 29.2257s)
+      [hb] open=1012626 seen=1048583 exp=167690 elapsed=5s
+      [hb] open=2362212 seen=2317409 exp=392008 elapsed=10s
+      [hb] open=3701542 seen=3754834 exp=615914 elapsed=15s
+      [hb] open=4454426 seen=4573377 exp=744701 elapsed=20s
+[408/790] ac-06014 (len=18) FAILED (772456 exp, 28.96s)
+      [hb] open=1203481 seen=1144842 exp=191614 elapsed=5s
+      [hb] open=2397252 seen=2309305 exp=392929 elapsed=10s
+      [hb] open=3746408 seen=3751531 exp=631590 elapsed=15s
+      [hb] open=4537488 seen=4617052 exp=763808 elapsed=20s
+[409/790] ac-06038 (len=18) FAILED (793702 exp, 29.1486s)
+      [hb] open=1326439 seen=1392903 exp=212565 elapsed=5s
+      [hb] open=2252699 seen=2384844 exp=355897 elapsed=10s
+      [hb] open=3422925 seen=3629755 exp=538362 elapsed=15s
+      [hb] open=4192452 seen=4454875 exp=663219 elapsed=20s
+[410/790] ac-06109 (len=18) FAILED (692707 exp, 30.3461s)
+      [hb] open=1472929 seen=1534423 exp=230613 elapsed=5s
+      [hb] open=2470415 seen=2570296 exp=384140 elapsed=10s
+      [hb] open=3795731 seen=3912051 exp=592305 elapsed=15s
+      [hb] open=4807768 seen=4989210 exp=745267 elapsed=20s
+[411/790] ac-06319 (len=18) FAILED (797769 exp, 30.4761s)
+      [hb] open=1542192 seen=1389701 exp=249176 elapsed=5s
+      [hb] open=2643151 seen=2546859 exp=449935 elapsed=10s
+      [hb] open=3878014 seen=3880640 exp=656227 elapsed=15s
+      [hb] open=4837731 seen=4913028 exp=822708 elapsed=20s
+[412/790] ac-05120 (len=18) FAILED (868911 exp, 30.1732s)
+      [hb] open=1613378 seen=1404849 exp=273980 elapsed=5s
+      [hb] open=3078497 seen=2120019 exp=508450 elapsed=10s
+      [hb] open=4347797 seen=3009739 exp=717690 elapsed=15s
+[413/790] ac-06469 (len=18) FAILED (1007452 exp, 30.1932s)
+      [hb] open=1334022 seen=1254792 exp=221356 elapsed=5s
+      [hb] open=2426202 seen=2342239 exp=411001 elapsed=10s
+      [hb] open=3299733 seen=3254113 exp=581146 elapsed=15s
+      [hb] open=4360327 seen=4113148 exp=765160 elapsed=20s
+[414/790] ac-06495 (len=18) FAILED (781313 exp, 29.2271s)
+      [hb] open=1324899 seen=1342346 exp=215092 elapsed=5s
+      [hb] open=2653090 seen=2754509 exp=431187 elapsed=10s
+      [hb] open=3935769 seen=4093217 exp=636681 elapsed=15s
+      [hb] open=4732046 seen=4923782 exp=758681 elapsed=20s
+[415/790] ac-06544 (len=18) FAILED (805037 exp, 29.4631s)
+      [hb] open=1242418 seen=1126547 exp=190676 elapsed=5s
+      [hb] open=2618452 seen=2105233 exp=448294 elapsed=10s
+      [hb] open=4063239 seen=3406852 exp=715104 elapsed=15s
+      [hb] open=4919612 seen=4194305 exp=875800 elapsed=20s
+[416/790] ac-06615 (len=18) FAILED (905323 exp, 28.3586s)
+      [hb] open=1319681 seen=1308111 exp=214816 elapsed=5s
+      [hb] open=2218292 seen=2248067 exp=364654 elapsed=10s
+      [hb] open=3350432 seen=3512045 exp=568667 elapsed=15s
+      [hb] open=4083119 seen=4327191 exp=688322 elapsed=20s
+[417/790] ac-06679 (len=18) FAILED (717119 exp, 29.1111s)
+      [hb] open=1409475 seen=1441119 exp=224842 elapsed=5s
+      [hb] open=2350220 seen=2424134 exp=381580 elapsed=10s
+      [hb] open=3416506 seen=3491188 exp=554549 elapsed=15s
+      [hb] open=4186534 seen=4286589 exp=679596 elapsed=20s
+[418/790] ac-06724 (len=18) FAILED (715431 exp, 29.7108s)
+      [hb] open=1383955 seen=1379137 exp=222065 elapsed=5s
+      [hb] open=2613783 seen=2647925 exp=425019 elapsed=10s
+      [hb] open=3735779 seen=3852524 exp=603390 elapsed=15s
+      [hb] open=4702724 seen=4903629 exp=758941 elapsed=20s
+[419/790] ac-06916 (len=18) FAILED (801034 exp, 30.2277s)
+      [hb] open=1346596 seen=1438505 exp=207810 elapsed=5s
+      [hb] open=2393926 seen=2571589 exp=377714 elapsed=10s
+      [hb] open=3367314 seen=3541498 exp=531545 elapsed=15s
+      [hb] open=4071417 seen=4296374 exp=632060 elapsed=20s
+[420/790] ac-06923 (len=18) FAILED (667405 exp, 28.8736s)
+      [hb] open=1186599 seen=1236404 exp=185872 elapsed=5s
+      [hb] open=2342002 seen=2411000 exp=377996 elapsed=10s
+      [hb] open=3473633 seen=3490604 exp=561565 elapsed=15s
+      [hb] open=4146379 seen=4194305 exp=671795 elapsed=20s
+[421/790] ac-06955 (len=18) FAILED (688042 exp, 28.2875s)
+      [hb] open=1297869 seen=1200295 exp=235305 elapsed=5s
+      [hb] open=2459452 seen=2421433 exp=443041 elapsed=10s
+      [hb] open=3865029 seen=3875232 exp=673717 elapsed=15s
+      [hb] open=4762742 seen=4819745 exp=821665 elapsed=20s
+[422/790] ac-06966 (len=18) FAILED (870198 exp, 29.3034s)
+      [hb] open=1474238 seen=1412902 exp=228421 elapsed=5s
+      [hb] open=2464120 seen=2461837 exp=386581 elapsed=10s
+      [hb] open=3840318 seen=3958529 exp=626974 elapsed=15s
+      [hb] open=4814183 seen=4999126 exp=792975 elapsed=20s
+[423/790] ac-07001 (len=18) FAILED (831713 exp, 30.4051s)
+      [hb] open=1451315 seen=1511812 exp=234737 elapsed=5s
+      [hb] open=2473462 seen=2591253 exp=386551 elapsed=10s
+      [hb] open=3741762 seen=3935612 exp=586243 elapsed=15s
+      [hb] open=4683759 seen=4933480 exp=734912 elapsed=20s
+[424/790] ac-07013 (len=18) FAILED (771892 exp, 30.2431s)
+      [hb] open=1395407 seen=1352265 exp=256186 elapsed=5s
+      [hb] open=2404208 seen=2384567 exp=430777 elapsed=10s
+      [hb] open=3461905 seen=3555481 exp=608639 elapsed=15s
+      [hb] open=4246753 seen=4441695 exp=745660 elapsed=20s
+[425/790] ac-07129 (len=18) FAILED (788130 exp, 29.6946s)
+      [hb] open=1459688 seen=1361877 exp=263981 elapsed=5s
+      [hb] open=2628514 seen=2475341 exp=461565 elapsed=10s
+      [hb] open=3717439 seen=3216388 exp=646321 elapsed=15s
+      [hb] open=4626462 seen=4194310 exp=826017 elapsed=20s
+[426/790] ac-07142 (len=18) FAILED (875500 exp, 28.7001s)
+      [hb] open=1371703 seen=1342903 exp=215960 elapsed=5s
+      [hb] open=2731057 seen=2577376 exp=445888 elapsed=10s
+      [hb] open=4009884 seen=3931068 exp=662278 elapsed=15s
+      [hb] open=4820642 seen=4684335 exp=796475 elapsed=20s
+[427/790] ac-07205 (len=18) FAILED (845451 exp, 29.4423s)
+      [hb] open=1146369 seen=1091017 exp=230769 elapsed=5s
+      [hb] open=2515282 seen=2286368 exp=465465 elapsed=10s
+      [hb] open=3950817 seen=3590649 exp=718331 elapsed=15s
+      [hb] open=4732376 seen=4322777 exp=851846 elapsed=20s
+[428/790] ac-07206 (len=18) FAILED (899400 exp, 28.1946s)
+      [hb] open=1394526 seen=1365216 exp=225024 elapsed=5s
+      [hb] open=2427079 seen=2463516 exp=393363 elapsed=10s
+      [hb] open=3802161 seen=3957366 exp=619370 elapsed=15s
+      [hb] open=4753766 seen=4850347 exp=778712 elapsed=20s
+[429/790] ac-07339 (len=18) FAILED (816207 exp, 30.2196s)
+      [hb] open=1489004 seen=1502612 exp=254247 elapsed=5s
+      [hb] open=2487397 seen=2522877 exp=417005 elapsed=10s
+      [hb] open=3858934 seen=3959175 exp=627954 elapsed=15s
+      [hb] open=4839724 seen=5007542 exp=789625 elapsed=20s
+[430/790] ac-07426 (len=18) FAILED (837078 exp, 30.6979s)
+      [hb] open=1399918 seen=1450893 exp=223391 elapsed=5s
+      [hb] open=2354213 seen=2452473 exp=381161 elapsed=10s
+      [hb] open=3391054 seen=3543118 exp=559256 elapsed=15s
+      [hb] open=4155994 seen=4344155 exp=680094 elapsed=20s
+[431/790] ac-07574 (len=18) FAILED (715388 exp, 30.1606s)
+      [hb] open=1481734 seen=1555656 exp=220384 elapsed=5s
+      [hb] open=2648828 seen=2655819 exp=403164 elapsed=10s
+      [hb] open=3765736 seen=3793344 exp=586514 elapsed=15s
+      [hb] open=4716427 seen=4763068 exp=742226 elapsed=20s
+[432/790] ac-07659 (len=18) FAILED (782033 exp, 30.1548s)
+      [hb] open=1292812 seen=1369537 exp=200798 elapsed=5s
+      [hb] open=2366891 seen=2518436 exp=363848 elapsed=10s
+      [hb] open=3275993 seen=3472092 exp=507659 elapsed=15s
+      [hb] open=3936266 seen=4194305 exp=618985 elapsed=20s
+[433/790] ac-10111 (len=18) FAILED (636856 exp, 28.6803s)
+      [hb] open=1279682 seen=1289165 exp=194141 elapsed=5s
+      [hb] open=2588749 seen=2435823 exp=411204 elapsed=10s
+      [hb] open=3861319 seen=3735528 exp=638973 elapsed=15s
+      [hb] open=4615919 seen=4525620 exp=757335 elapsed=20s
+[434/790] ac-07824 (len=18) FAILED (805771 exp, 29.0502s)
+      [hb] open=1122891 seen=964175 exp=187881 elapsed=5s
+      [hb] open=2345753 seen=2097157 exp=408655 elapsed=10s
+      [hb] open=3778666 seen=3499278 exp=660958 elapsed=15s
+      [hb] open=4677477 seen=4194309 exp=816214 elapsed=20s
+[435/790] ac-07839 (len=18) FAILED (841821 exp, 28.3188s)
+      [hb] open=1465064 seen=1472751 exp=229480 elapsed=5s
+      [hb] open=2494238 seen=2415851 exp=399889 elapsed=10s
+      [hb] open=3910821 seen=3793817 exp=655769 elapsed=15s
+      [hb] open=4898751 seen=4814063 exp=824241 elapsed=20s
+[436/790] ac-07925 (len=18) FAILED (862266 exp, 30.5922s)
+      [hb] open=1344562 seen=1413222 exp=214156 elapsed=5s
+      [hb] open=2216338 seen=2314375 exp=339016 elapsed=10s
+      [hb] open=3329390 seen=3526939 exp=508283 elapsed=15s
+      [hb] open=3987372 seen=4255006 exp=603569 elapsed=20s
+[437/790] ac-07926 (len=18) FAILED (638718 exp, 29.5155s)
+      [hb] open=1516672 seen=1578161 exp=243264 elapsed=5s
+      [hb] open=2717280 seen=2848653 exp=427787 elapsed=10s
+      [hb] open=3902072 seen=4097130 exp=606646 elapsed=15s
+      [hb] open=4850337 seen=5114227 exp=759536 elapsed=20s
+[438/790] ac-08114 (len=18) FAILED (806773 exp, 30.3437s)
+      [hb] open=1394642 seen=1450307 exp=235576 elapsed=5s
+      [hb] open=2481711 seen=2632814 exp=402888 elapsed=10s
+      [hb] open=3450065 seen=3617989 exp=555887 elapsed=15s
+      [hb] open=4211041 seen=4416628 exp=681588 elapsed=20s
+[439/790] ac-08122 (len=18) FAILED (714406 exp, 29.2069s)
+      [hb] open=1264351 seen=1338707 exp=202824 elapsed=5s
+      [hb] open=2362209 seen=2457717 exp=364010 elapsed=10s
+      [hb] open=3418658 seen=3600931 exp=522409 elapsed=15s
+      [hb] open=4028876 seen=4281378 exp=611373 elapsed=20s
+[440/790] ac-08123 (len=18) FAILED (648318 exp, 28.9205s)
+      [hb] open=1138259 seen=1167873 exp=186144 elapsed=5s
+      [hb] open=2417224 seen=2364424 exp=404972 elapsed=10s
+      [hb] open=3777732 seen=3851677 exp=627038 elapsed=15s
+      [hb] open=4503067 seen=4637276 exp=749943 elapsed=20s
+[441/790] ac-08142 (len=18) FAILED (789632 exp, 29.1323s)
+      [hb] open=1225621 seen=1257995 exp=208564 elapsed=5s
+      [hb] open=2205151 seen=2314660 exp=365500 elapsed=10s
+      [hb] open=3325719 seen=3559456 exp=549760 elapsed=15s
+      [hb] open=4014597 seen=4323980 exp=658852 elapsed=20s
+[442/790] ac-08166 (len=18) FAILED (687178 exp, 29.3108s)
+      [hb] open=1385781 seen=1465230 exp=218743 elapsed=5s
+      [hb] open=2243541 seen=2382056 exp=357537 elapsed=10s
+      [hb] open=3395143 seen=3537133 exp=539320 elapsed=15s
+      [hb] open=4150424 seen=4323449 exp=660351 elapsed=20s
+[443/790] ac-08180 (len=18) FAILED (691002 exp, 29.7753s)
+      [hb] open=1547820 seen=1427055 exp=264215 elapsed=5s
+      [hb] open=2686355 seen=2566693 exp=463241 elapsed=10s
+      [hb] open=3888063 seen=3837495 exp=685897 elapsed=15s
+      [hb] open=4857843 seen=4842976 exp=857847 elapsed=20s
+[444/790] ac-08538 (len=18) FAILED (920368 exp, 30.047s)
+      [hb] open=1520231 seen=1440403 exp=245686 elapsed=5s
+      [hb] open=2743918 seen=2721870 exp=460866 elapsed=10s
+      [hb] open=3820970 seen=3874424 exp=637290 elapsed=15s
+      [hb] open=4760483 seen=4889573 exp=804241 elapsed=20s
+[445/790] ac-08593 (len=18) FAILED (847035 exp, 29.5921s)
+      [hb] open=1476969 seen=1439481 exp=231968 elapsed=5s
+      [hb] open=2809496 seen=2779338 exp=460411 elapsed=10s
+      [hb] open=4028189 seen=4057781 exp=657251 elapsed=15s
+      [hb] open=4898547 seen=4962543 exp=805802 elapsed=20s
+[446/790] ac-08627 (len=18) FAILED (857017 exp, 30.0301s)
+      [hb] open=1206386 seen=1229070 exp=191703 elapsed=5s
+      [hb] open=2343826 seen=2436392 exp=382731 elapsed=10s
+      [hb] open=3433893 seen=3568892 exp=563215 elapsed=15s
+      [hb] open=4074200 seen=4194313 exp=665136 elapsed=20s
+[447/790] ac-08658 (len=18) FAILED (690009 exp, 28.5002s)
+      [hb] open=1178062 seen=1177602 exp=191318 elapsed=5s
+      [hb] open=2256460 seen=2214412 exp=376987 elapsed=10s
+      [hb] open=3432593 seen=3430304 exp=580482 elapsed=15s
+[448/790] ac-08668 (len=18) FAILED (697805 exp, 29.6583s)
+      [hb] open=1280614 seen=1344225 exp=191268 elapsed=5s
+      [hb] open=2149431 seen=2281813 exp=333987 elapsed=10s
+      [hb] open=3297868 seen=3474204 exp=526536 elapsed=15s
+      [hb] open=4040610 seen=4243843 exp=635470 elapsed=20s
+[449/790] ac-08725 (len=18) FAILED (663847 exp, 29.2587s)
+      [hb] open=1514568 seen=1551546 exp=239150 elapsed=5s
+      [hb] open=2590242 seen=2463240 exp=413446 elapsed=10s
+      [hb] open=3863605 seen=3740253 exp=642996 elapsed=15s
+      [hb] open=4820596 seen=4728815 exp=801388 elapsed=20s
+[450/790] ac-08781 (len=18) FAILED (849231 exp, 30.1074s)
+      [hb] open=1413484 seen=1476608 exp=218654 elapsed=5s
+      [hb] open=2375264 seen=2534466 exp=373594 elapsed=10s
+      [hb] open=3373908 seen=3555454 exp=536283 elapsed=15s
+      [hb] open=4111602 seen=4347912 exp=655494 elapsed=20s
+[451/790] ac-08869 (len=18) FAILED (686812 exp, 29.6965s)
+      [hb] open=1465916 seen=1523709 exp=236952 elapsed=5s
+      [hb] open=2751548 seen=2835460 exp=439144 elapsed=10s
+      [hb] open=3860623 seen=3981912 exp=603666 elapsed=15s
+      [hb] open=4752564 seen=4926850 exp=747850 elapsed=20s
+[452/790] ac-08871 (len=18) FAILED (794552 exp, 30.1718s)
+      [hb] open=1226971 seen=1250598 exp=204790 elapsed=5s
+      [hb] open=2333422 seen=2415197 exp=390710 elapsed=10s
+      [hb] open=3339207 seen=3477279 exp=565429 elapsed=15s
+      [hb] open=3998134 seen=4194309 exp=671658 elapsed=20s
+[453/790] ac-08978 (len=18) FAILED (698065 exp, 28.5311s)
+      [hb] open=1211757 seen=1245855 exp=187426 elapsed=5s
+      [hb] open=2509364 seen=2612348 exp=383559 elapsed=10s
+      [hb] open=3857665 seen=4025815 exp=597709 elapsed=15s
+      [hb] open=4649728 seen=4828267 exp=720718 elapsed=20s
+[454/790] ac-00035 (len=19) FAILED (755731 exp, 29.4463s)
+      [hb] open=1305422 seen=1356836 exp=210910 elapsed=5s
+      [hb] open=2286206 seen=2343053 exp=371166 elapsed=10s
+      [hb] open=3690675 seen=3730257 exp=587284 elapsed=15s
+      [hb] open=4563905 seen=4674481 exp=736344 elapsed=20s
+[455/790] ac-00105 (len=19) FAILED (768014 exp, 29.6674s)
+      [hb] open=1347368 seen=1426900 exp=223827 elapsed=5s
+      [hb] open=2230728 seen=2350089 exp=356968 elapsed=10s
+      [hb] open=3387663 seen=3606200 exp=541594 elapsed=15s
+      [hb] open=4146528 seen=4387085 exp=660067 elapsed=20s
+[456/790] ac-00107 (len=19) FAILED (690079 exp, 29.9632s)
+      [hb] open=1578840 seen=1320663 exp=275249 elapsed=5s
+      [hb] open=2756390 seen=2212300 exp=497749 elapsed=10s
+      [hb] open=3956132 seen=3527576 exp=757799 elapsed=15s
+      [hb] open=4958022 seen=4474454 exp=956318 elapsed=20s
+[457/790] ac-00132 (len=19) FAILED (1025659 exp, 30.6799s)
+      [hb] open=1343564 seen=1441797 exp=204910 elapsed=5s
+      [hb] open=2339358 seen=2509066 exp=355089 elapsed=10s
+      [hb] open=3282072 seen=3514899 exp=505941 elapsed=15s
+      [hb] open=4000670 seen=4296145 exp=621032 elapsed=20s
+[458/790] ac-00141 (len=19) FAILED (656156 exp, 29.372s)
+      [hb] open=1550708 seen=1645397 exp=223383 elapsed=5s
+      [hb] open=2832588 seen=3040652 exp=414948 elapsed=10s
+      [hb] open=3916247 seen=4170722 exp=571242 elapsed=15s
+      [hb] open=4847330 seen=5115156 exp=707299 elapsed=20s
+[459/790] ac-04340 (len=19) FAILED (757856 exp, 30.4814s)
+      [hb] open=1380814 seen=1387542 exp=225625 elapsed=5s
+      [hb] open=2700008 seen=2721127 exp=440488 elapsed=10s
+      [hb] open=3952979 seen=3967667 exp=639731 elapsed=15s
+      [hb] open=4745821 seen=4809837 exp=777046 elapsed=20s
+[460/790] ac-08761 (len=19) FAILED (829288 exp, 29.919s)
+      [hb] open=1249191 seen=1250368 exp=204896 elapsed=5s
+      [hb] open=2502834 seen=2586478 exp=411931 elapsed=10s
+      [hb] open=3809993 seen=3860605 exp=635556 elapsed=15s
+      [hb] open=4527365 seen=4581603 exp=751092 elapsed=20s
+[461/790] ac-01942 (len=19) FAILED (798800 exp, 29.1325s)
+      [hb] open=1080232 seen=1130624 exp=181254 elapsed=5s
+      [hb] open=2067560 seen=2210474 exp=333021 elapsed=10s
+      [hb] open=3213085 seen=3461367 exp=510292 elapsed=15s
+      [hb] open=3910633 seen=4194305 exp=619055 elapsed=20s
+[462/790] ac-00293 (len=19) FAILED (632006 exp, 28.5204s)
+      [hb] open=1477472 seen=1513296 exp=234442 elapsed=5s
+      [hb] open=2440492 seen=2560396 exp=389241 elapsed=10s
+      [hb] open=3832547 seen=4002019 exp=623446 elapsed=15s
+      [hb] open=4801422 seen=5002543 exp=780910 elapsed=20s
+[463/790] ac-00299 (len=19) FAILED (823823 exp, 30.7892s)
+      [hb] open=1486493 seen=1498655 exp=239530 elapsed=5s
+      [hb] open=2512029 seen=2565579 exp=401345 elapsed=10s
+      [hb] open=3861821 seen=3929095 exp=616546 elapsed=15s
+      [hb] open=4853379 seen=4985560 exp=775373 elapsed=20s
+[464/790] ac-05913 (len=19) FAILED (837083 exp, 30.9733s)
+      [hb] open=1474231 seen=1525176 exp=234816 elapsed=5s
+      [hb] open=2556058 seen=2659238 exp=403196 elapsed=10s
+      [hb] open=3854837 seen=3780412 exp=623473 elapsed=15s
+      [hb] open=4923313 seen=4838070 exp=799909 elapsed=20s
+[465/790] ac-01905 (len=19) FAILED (859662 exp, 30.5493s)
+      [hb] open=1307523 seen=1357123 exp=217157 elapsed=5s
+      [hb] open=2292093 seen=2413588 exp=367492 elapsed=10s
+      [hb] open=3219691 seen=3421918 exp=516846 elapsed=15s
+      [hb] open=3953550 seen=4194305 exp=634318 elapsed=20s
+[466/790] ac-00409 (len=19) FAILED (666813 exp, 29.4434s)
+      [hb] open=1417367 seen=1372187 exp=236263 elapsed=5s
+      [hb] open=2590122 seen=2636752 exp=466988 elapsed=10s
+      [hb] open=3716749 seen=3767014 exp=657248 elapsed=15s
+      [hb] open=4579937 seen=4673552 exp=795502 elapsed=20s
+[467/790] ac-00421 (len=19) FAILED (834569 exp, 29.5778s)
+      [hb] open=1162876 seen=1226745 exp=187518 elapsed=5s
+      [hb] open=2265471 seen=2430802 exp=354347 elapsed=10s
+      [hb] open=3322369 seen=3594924 exp=518503 elapsed=15s
+      [hb] open=3901569 seen=4220893 exp=608254 elapsed=20s
+[468/790] ac-00440 (len=19) FAILED (643158 exp, 28.4132s)
+      [hb] open=1111607 seen=1180782 exp=175818 elapsed=5s
+      [hb] open=2165520 seen=2317115 exp=334850 elapsed=10s
+      [hb] open=3337689 seen=3590761 exp=515349 elapsed=15s
+      [hb] open=3948947 seen=4268017 exp=611983 elapsed=20s
+[469/790] ac-00481 (len=19) FAILED (639632 exp, 29.191s)
+      [hb] open=1320505 seen=1393978 exp=211410 elapsed=5s
+      [hb] open=2362209 seen=2397823 exp=374374 elapsed=10s
+      [hb] open=3756088 seen=3837351 exp=591550 elapsed=15s
+      [hb] open=4642713 seen=4820395 exp=742308 elapsed=20s
+[470/790] ac-00507 (len=19) FAILED (770647 exp, 30.1839s)
+      [hb] open=1355208 seen=1402702 exp=229365 elapsed=5s
+      [hb] open=2211908 seen=2330346 exp=361766 elapsed=10s
+      [hb] open=3307282 seen=3521284 exp=536687 elapsed=15s
+      [hb] open=4052755 seen=4313289 exp=657309 elapsed=20s
+[471/790] ac-00577 (len=19) FAILED (691755 exp, 29.9162s)
+      [hb] open=1347426 seen=1444759 exp=230547 elapsed=5s
+      [hb] open=2332723 seen=2514399 exp=381681 elapsed=10s
+      [hb] open=3333023 seen=3599442 exp=533579 elapsed=15s
+      [hb] open=4114292 seen=4413922 exp=648480 elapsed=20s
+[472/790] ac-01887 (len=19) FAILED (677921 exp, 29.7886s)
+      [hb] open=1475427 seen=1458981 exp=236874 elapsed=5s
+      [hb] open=2730621 seen=2722888 exp=428542 elapsed=10s
+      [hb] open=3836564 seen=3881231 exp=601951 elapsed=15s
+      [hb] open=4735700 seen=4872226 exp=769102 elapsed=20s
+[473/790] ac-00701 (len=19) FAILED (819557 exp, 30.8702s)
+      [hb] open=1292005 seen=1302556 exp=215732 elapsed=5s
+      [hb] open=2362209 seen=2423843 exp=400040 elapsed=10s
+      [hb] open=3289901 seen=3440774 exp=551871 elapsed=15s
+      [hb] open=3983570 seen=4194306 exp=662004 elapsed=20s
+[474/790] ac-06141 (len=19) FAILED (681376 exp, 28.7092s)
+      [hb] open=1198072 seen=1246809 exp=202585 elapsed=5s
+      [hb] open=2490294 seen=2539244 exp=411606 elapsed=10s
+      [hb] open=3760414 seen=3854999 exp=610236 elapsed=15s
+      [hb] open=4389571 seen=4578716 exp=723633 elapsed=20s
+[475/790] ac-06148 (len=19) FAILED (768563 exp, 29.0409s)
+      [hb] open=1167463 seen=1204648 exp=184955 elapsed=5s
+      [hb] open=2219398 seen=2273619 exp=360693 elapsed=10s
+      [hb] open=3356144 seen=3476963 exp=546960 elapsed=15s
+      [hb] open=4022314 seen=4194310 exp=655390 elapsed=20s
+[476/790] ac-06171 (len=19) FAILED (677539 exp, 28.8503s)
+      [hb] open=1574809 seen=1627928 exp=237327 elapsed=5s
+      [hb] open=2608173 seen=2721221 exp=395979 elapsed=10s
+      [hb] open=4030984 seen=4185160 exp=612047 elapsed=15s
+      [hb] open=5152610 seen=5006512 exp=778105 elapsed=20s
+[477/790] ac-03831 (len=19) FAILED (808670 exp, 31.0958s)
+      [hb] open=1430670 seen=1418607 exp=240874 elapsed=5s
+      [hb] open=2375363 seen=2409081 exp=388241 elapsed=10s
+      [hb] open=3672520 seen=3814759 exp=602889 elapsed=15s
+      [hb] open=4586901 seen=4851640 exp=768247 elapsed=20s
+[478/790] ac-03825 (len=19) FAILED (808922 exp, 30.5493s)
+      [hb] open=1465881 seen=1423452 exp=233584 elapsed=5s
+      [hb] open=2514764 seen=2421485 exp=409699 elapsed=10s
+      [hb] open=3773412 seen=3718095 exp=608164 elapsed=15s
+      [hb] open=4726257 seen=4767047 exp=766796 elapsed=20s
+[479/790] ac-01869 (len=19) FAILED (816280 exp, 30.3639s)
+      [hb] open=1510861 seen=1243088 exp=275876 elapsed=5s
+      [hb] open=2558202 seen=2299273 exp=506082 elapsed=10s
+      [hb] open=3629003 seen=3296459 exp=705200 elapsed=15s
+      [hb] open=4531651 seen=4202025 exp=878944 elapsed=20s
+[480/790] ac-01822 (len=19) FAILED (936226 exp, 29.3038s)
+      [hb] open=1465084 seen=1473081 exp=250769 elapsed=5s
+      [hb] open=2706635 seen=2785715 exp=464615 elapsed=10s
+      [hb] open=3822792 seen=3955214 exp=652377 elapsed=15s
+      [hb] open=4705466 seen=4916294 exp=796829 elapsed=20s
+[481/790] ac-08850 (len=19) FAILED (850867 exp, 30.3476s)
+
+*** Overall time budget reached. ***
+
+==================================================
+Done. Weight=5  Solved: 0/481
+End: 2026-09-24 22:58:12
+Output: submission_fast.txt
+==================================================
